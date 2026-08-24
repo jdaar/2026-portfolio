@@ -1,0 +1,3456 @@
+{
+  "$schema": "portfolio-data-v1",
+  "generatedAt": "2026-08-24",
+  "profile": {
+    "name": "Jhonatan David Asprilla Arango",
+    "headline": "Senior Software Engineer",
+    "location": {
+      "city": "Medellín",
+      "state": "Antioquia",
+      "country": "Colombia",
+      "timezone": "UTC-5",
+      "remoteFriendly": true
+    },
+    "contact": {
+      "emails": [
+        "jhonatandavid@asprillaarango.com",
+        "jhonatandaar@gmail.com"
+      ],
+      "meeting": "meet.asprillaarango.com",
+      "linkedin": "linkedin.com/in/jasprilla"
+    },
+    "summary": {
+      "en": "Senior Software Engineer with 5+ years of experience specializing in full-stack development, distributed backend systems, mobile applications, and applied AI automation. Proven track record architecting high-throughput reactive microservices (Java/Spring WebFlux, C#/.NET, Python, Node.js), scalable mobile applications (React Native), and enterprise AI agents (LangGraph, Bedrock, Gemini SDK, OpenAI). Strong expertise in Domain-Driven Design (DDD), Clean/Hexagonal Architecture, Event-Driven Architectures, and leading engineering teams through technical modernization and AI adoption with measurable efficiency gains.",
+      "es": "Ingeniero de Software Senior con más de 5 años de experiencia en desarrollo full-stack, sistemas backend distribuidos, aplicaciones móviles y automatización con IA aplicada. Trayectoria probada arquitectando microservicios reactivos de alto throughput (Java/Spring WebFlux, C#/.NET, Python, Node.js), aplicaciones móviles escalables (React Native) y agentes de IA empresariales (LangGraph, Bedrock, Gemini SDK, OpenAI). Sólida experiencia en Domain-Driven Design (DDD), Clean/Hexagonal Architecture, arquitecturas Event-Driven y liderazgo de equipos de ingeniería en modernización técnica y adopción de IA con ganancias de eficiencia medibles."
+    },
+    "yearsExperience": 5,
+    "seniority": "Senior"
+  },
+  "cv": {
+    "workExperience": [
+      {
+        "id": "templ8r",
+        "company": "templ8r.co",
+        "role": "Founding Engineer",
+        "location": "Medellín, Colombia",
+        "from": "2026-04",
+        "to": null,
+        "present": true,
+        "highlights": [
+          "Architected and delivered core platform capabilities from scratch, driving technical decisions, modular architecture, and rapid product iteration."
+        ]
+      },
+      {
+        "id": "sofka",
+        "company": "Sofka Technologies",
+        "role": "Development Consultant",
+        "location": "Medellín, Colombia",
+        "from": "2024-02",
+        "to": "2026-04",
+        "present": false,
+        "highlights": [
+          "Designed software architectures and led end-to-end delivery of mission-critical solutions across banking, insurance, logistics, and AI domains.",
+          "Acted as primary technical mentor across cross-functional teams, enforcing engineering excellence (TDD, PR reviews, CI/CD, SonarQube, security audits).",
+          "Engineered and stabilized production AI agents and accelerators, reducing time-to-market and unlocking automated workflows."
+        ],
+        "clientEngagements": [
+          "dinersclub",
+          "suramx",
+          "lotrading",
+          "bmc",
+          "sofka-ai-center"
+        ]
+      },
+      {
+        "id": "firplak",
+        "company": "Firplak S.A",
+        "role": "Fullstack Developer",
+        "location": "Medellín, Colombia",
+        "from": "2021-11",
+        "to": "2023-12",
+        "present": false,
+        "highlights": [
+          "Built enterprise internal business applications and domain-level automations connecting SAP Business One, Microsoft 365, and Power Platform.",
+          "Optimized supply chain automation processes, saving 30+ hours of manual operations per week.",
+          "Integrated real-time observability and alerting into core business apps."
+        ]
+      },
+      {
+        "id": "zanacode",
+        "company": "Zanacode",
+        "role": "Mobile Developer",
+        "location": "Colombia",
+        "from": "2023-02",
+        "to": "2023-11",
+        "present": false,
+        "highlights": [
+          "Cross-platform mobile app in React Native for engineering-domain clients with offline-first CRDT synchronization on Firestore.",
+          "Implemented end-to-end authentication flows across React Native and React.js clients.",
+          "Optimized mobile app stability on iOS and Android."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingeniería de Software",
+        "institution": "Politécnico Grancolombiano",
+        "status": "in_progress",
+        "from": null,
+        "to": null
+      },
+      {
+        "degree": "Technology in Mobile Application Development",
+        "institution": "Institución Universitaria ITM",
+        "status": "in_progress",
+        "from": "2026-01",
+        "to": null
+      },
+      {
+        "degree": "Systems and Computer Engineering (Ingeniería de Sistemas e Informática)",
+        "institution": "Universidad Nacional de Colombia",
+        "status": "completed",
+        "from": "2021-01",
+        "to": "2025-12"
+      },
+      {
+        "degree": "Computer Maintenance Technician",
+        "institution": "Servicio Nacional de Aprendizaje (SENA)",
+        "status": "completed",
+        "from": "2019-04",
+        "to": "2020-04"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Bootcamp de Inteligencia Artificial y Desarrollo Agéntico",
+        "issuer": "Universidad de Antioquia",
+        "issued": "2026-07",
+        "expires": null,
+        "credentialId": "YF6S7E9PR3",
+        "category": "AI"
+      },
+      {
+        "name": "Desarrollo seguro",
+        "issuer": "Sofka Technologies",
+        "issued": "2026-01",
+        "expires": "2030-01",
+        "credentialId": "167fc0a8-7fce-4e58-8fc7-308a66184a29",
+        "category": "Security"
+      },
+      {
+        "name": "AWS Certified AI Practitioner",
+        "issuer": "Amazon Web Services (AWS)",
+        "issued": "2025-11",
+        "expires": "2028-11",
+        "credentialId": null,
+        "category": "AI/Cloud"
+      },
+      {
+        "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+        "issuer": "Google",
+        "issued": "2025-06",
+        "expires": null,
+        "credentialId": "16334821",
+        "category": "Cloud"
+      },
+      {
+        "name": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        "issuer": "Amazon Web Services (AWS)",
+        "issued": "2025-05",
+        "expires": null,
+        "credentialId": null,
+        "category": "Cloud"
+      },
+      {
+        "name": "Configuración de Frame Banking",
+        "issuer": "2innovate",
+        "issued": "2024-05",
+        "expires": null,
+        "credentialId": null,
+        "category": "Banking"
+      },
+      {
+        "name": "Solution Consultant II Accreditation",
+        "issuer": "Mambu",
+        "issued": "2024-04",
+        "expires": null,
+        "credentialId": "6419829",
+        "category": "Banking"
+      },
+      {
+        "name": "Solution Consultant I Accreditation",
+        "issuer": "Mambu",
+        "issued": "2024-04",
+        "expires": null,
+        "credentialId": "6416713",
+        "category": "Banking"
+      },
+      {
+        "name": "Cloud Computing Foundations",
+        "issuer": "Duke University",
+        "issued": "2022-07",
+        "expires": null,
+        "credentialId": "L4H3KPB6C7HC",
+        "category": "Cloud"
+      },
+      {
+        "name": "EFSET English Certificate C2 Proficient",
+        "issuer": "EF SET",
+        "issued": "2022-04",
+        "expires": null,
+        "credentialId": null,
+        "category": "Language"
+      },
+      {
+        "name": "Diploma in Mobile Application Development",
+        "issuer": "Universidad Nacional de Colombia",
+        "issued": "2021-12",
+        "expires": null,
+        "credentialId": "5L98RG1M0XLIS",
+        "category": "Development"
+      },
+      {
+        "name": "Introduction to Cybersecurity",
+        "issuer": "Cisco",
+        "issued": "2022-03",
+        "expires": null,
+        "credentialId": null,
+        "category": "Security"
+      },
+      {
+        "name": "PE124 Preliminary Exam in Red Hat System Administration I",
+        "issuer": "Red Hat",
+        "issued": "2022-02",
+        "expires": null,
+        "credentialId": "220-046-965",
+        "category": "SysAdmin"
+      },
+      {
+        "name": "Diploma in Programming Skills",
+        "issuer": "International Labour Organization",
+        "issued": "2021-01",
+        "expires": null,
+        "credentialId": null,
+        "category": "Development"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "Native / Bilingual",
+        "cefr": "C2"
+      },
+      {
+        "language": "English",
+        "level": "Full Professional / C2 Proficient (EFSET C2)",
+        "cefr": "C2"
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Java (17, 21)",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "C#",
+        "SQL",
+        "Dart"
+      ],
+      "backend": [
+        "Spring Boot",
+        "Spring WebFlux",
+        "Project Reactor",
+        "R2DBC",
+        "ASP.NET",
+        "NestJS",
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "JPA/Hibernate",
+        "JasperReports",
+        "SignalR"
+      ],
+      "frontendMobile": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Redux",
+        "Redux-Saga",
+        "Angular",
+        "TailwindCSS",
+        "Vite",
+        "ShadCN"
+      ],
+      "aiAgentic": [
+        "LangGraph",
+        "Bedrock",
+        "Gemini SDK",
+        "OpenAI API",
+        "Anthropic API",
+        "RAG (Weaviate, ChromaDB)",
+        "MCP (Model Context Protocol)",
+        "Prompt Engineering",
+        "GitHub Copilot"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MongoDB",
+        "SQL Server",
+        "Redis",
+        "Neo4j",
+        "Oracle Database",
+        "SQLite",
+        "DynamoDB",
+        "Firebase Firestore"
+      ],
+      "cloudDevops": [
+        "AWS Step Functions",
+        "AWS Lambda",
+        "AWS Bedrock",
+        "AWS DynamoDB",
+        "AWS API Gateway",
+        "AWS S3",
+        "AWS EKS",
+        "Azure Service Bus",
+        "Azure AD B2C",
+        "Azure DevOps",
+        "Azure Cloud SQL",
+        "OpenShift",
+        "Kubernetes",
+        "Docker",
+        "CI/CD Pipelines",
+        "OpenTelemetry",
+        "SonarQube"
+      ],
+      "architecturePractices": [
+        "Clean Architecture",
+        "Hexagonal Architecture",
+        "Domain-Driven Design (DDD)",
+        "Event-Driven Architecture",
+        "Microservices",
+        "Microfrontends",
+        "CQRS",
+        "Sagas",
+        "TDD",
+        "Agile/Scrum"
+      ]
+    }
+  },
+  "experiences": [
+    {
+      "id": "bmc",
+      "company": {
+        "name": "Bolsa Mercantil de Colombia (BMC)",
+        "industries": [
+          "Financial Services",
+          "Commodities Exchange",
+          "Public Procurement"
+        ]
+      },
+      "role": "Fullstack Developer",
+      "consultancy": true,
+      "modality": "partial",
+      "engagement": "complete",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2024-02",
+        "to": "2024-12",
+        "months": 11
+      },
+      "description": {
+        "en": "Worked as a Fullstack Developer in a consultancy engagement for the Bolsa Mercantil de Colombia (BMC), contributing to the SEB (Sistema Electrónico de Subastas) platform, a live electronic auctioning system that handles Public Procurement, Private Procurement, and Financial Instruments markets, across an Angular + .NET + SignalR stack.",
+        "es": "Me desempeñé como Fullstack Developer en una consultoría para la Bolsa Mercantil de Colombia (BMC), contribuyendo a la plataforma SEB (Sistema Electrónico de Subastas), un sistema de subastas electrónicas en producción que gestiona los mercados de Compras Públicas, Compras Privadas e Instrumentos Financieros, sobre un stack Angular + .NET + SignalR."
+      },
+      "keyAchievements": [
+        "Automated auction-start mechanism eliminating manual opening by the radicador operator.",
+        "Resolved critical auction-related problems affecting shareholders in collaboration with the business team.",
+        "Deployed a real-time chat solution for seamless stakeholder communication."
+      ],
+      "projects": [
+        "seb"
+      ],
+      "clientLocation": {
+        "country": "Colombia",
+        "city": "Bogotá",
+        "lat": 4.711,
+        "lng": -74.0721,
+        "verified": true
+      },
+      "brandColor": "#1E3A8A"
+    },
+    {
+      "id": "dinersclub",
+      "company": {
+        "name": "Diners Club Ecuador",
+        "industries": [
+          "Traditional banking"
+        ]
+      },
+      "role": "Fullstack Developer",
+      "consultancy": true,
+      "modality": "remote",
+      "engagement": "complete",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2025-05",
+        "to": "2026-02",
+        "months": 10
+      },
+      "description": {
+        "en": "Contributed as a Software Developer on a large-scale digital banking app serving over 250,000 users, delivering critical mobile features in React Native and integrating Java-based channel services with the core banking system.",
+        "es": "Contribuí como Desarrollador de Software en una aplicación de banca digital a gran escala con más de 250,000 usuarios, entregando funcionalidades móviles críticas en React Native e integrando servicios de canal en Java con el core bancario."
+      },
+      "metrics": {
+        "usersServed": 250000,
+        "teamSize": 30,
+        "storesDeployed": 2
+      },
+      "keyAchievements": [
+        "Delivered cash advance and ATM withdrawal features in React Native for 250,000+ users.",
+        "Integrated Java-based channel services with core banking system.",
+        "Implemented 2-way encryption (RSA/AES), OAuth, and soft tokens.",
+        "Trained 24 developers on GitHub Copilot; AI maturity from 3.87/5 to 4.02/5.",
+        "Deployed to Google Play Store and Apple App Store."
+      ],
+      "projects": [
+        "blu_app_2",
+        "bot"
+      ],
+      "clientLocation": {
+        "country": "Ecuador",
+        "city": "Quito",
+        "lat": -0.1807,
+        "lng": -78.4678,
+        "verified": true
+      },
+      "brandColor": "#004990"
+    },
+    {
+      "id": "firplak",
+      "company": {
+        "name": "Firplak S.A",
+        "industries": [
+          "Manufacturing",
+          "Construction",
+          "Home Goods"
+        ]
+      },
+      "role": "Fullstack Developer",
+      "consultancy": false,
+      "modality": "remote",
+      "engagement": "complete",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2021-11",
+        "to": "2023-12",
+        "months": 26
+      },
+      "description": {
+        "en": "Fullstack Developer at Firplak S.A building internal business applications and domain-level automations connecting SAP Business One, Microsoft 365, and Power Platform.",
+        "es": "Fullstack Developer en Firplak S.A construyendo aplicaciones internas de negocio y automatizaciones que conectan SAP Business One, Microsoft 365 y Power Platform."
+      },
+      "metrics": {
+        "hoursSavedPerWeek": 30,
+        "hoursSavedPerYearEstimated": 1560
+      },
+      "keyAchievements": [
+        "Streamlined supply chain automation processes, saving 30+ hours of manual work per week.",
+        "Rebuilt key flows in React.js improving usability and reducing time-on-task.",
+        "Embedded observability and alerting into core business applications.",
+        "Enhanced ticket resolution time with efficient alert systems."
+      ],
+      "projects": [
+        "fpk_jobs",
+        "power_platform_sap_b1_connector",
+        "trackpod"
+      ],
+      "clientLocation": {
+        "country": "Colombia",
+        "city": "Itagüí",
+        "lat": 6.1719,
+        "lng": -75.6111,
+        "verified": true
+      },
+      "brandColor": "#0072CE"
+    },
+    {
+      "id": "lotrading",
+      "company": {
+        "name": "L.O. Trading",
+        "industries": [
+          "Logistics",
+          "International Trade",
+          "Import/Export"
+        ]
+      },
+      "role": "Backend Developer",
+      "consultancy": true,
+      "modality": "remote",
+      "engagement": "partial",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2024-05",
+        "to": "2024-12",
+        "months": 8
+      },
+      "description": {
+        "en": "Backend Developer contributing to SOFTLOT modernization on Java 21, Spring WebFlux, Project Reactor, and R2DBC with microservices, DDD and event-driven patterns.",
+        "es": "Backend Developer contribuyendo a la modernización de SOFTLOT sobre Java 21, Spring WebFlux, Project Reactor y R2DBC con microservicios, DDD y patrones event-driven."
+      },
+      "metrics": {
+        "apiResponseTimeBeforeSec": 2.5,
+        "apiResponseTimeAfterSec": 1,
+        "apiResponseTimeImprovementX": 3,
+        "testCoveragePercent": 100,
+        "monthsAheadOfSchedule": 5,
+        "originalTimelineMonths": 10,
+        "actualTimelineMonths": 5,
+        "timelineReductionPercent": 50,
+        "aiAssistedEffortReductionPercent": 80,
+        "legacySystemYears": 18
+      },
+      "keyAchievements": [
+        "3× API response time improvement (2–3s to <1s) with reactive backend on Java 21.",
+        "100% test coverage on critical backend services.",
+        "80% reduction in unit-testing and migration effort via GitHub Copilot.",
+        "Delivered to production 5 months ahead of schedule (50% timeline reduction).",
+        "Turned a technical crisis (failed initial launch) into successful go-live.",
+        "60+ screens modular UI on Atomic Design standards."
+      ],
+      "projects": [
+        "softlot"
+      ],
+      "clientLocation": {
+        "country": "United States",
+        "city": "Miami",
+        "lat": 25.7617,
+        "lng": -80.1918,
+        "verified": true
+      },
+      "brandColor": "#0D9488"
+    },
+    {
+      "id": "sofka",
+      "company": {
+        "name": "Sofka Technologies",
+        "industries": [
+          "Software",
+          "Consultancy",
+          "Artificial Intelligence"
+        ]
+      },
+      "role": "Development Consultant",
+      "consultancy": false,
+      "modality": "remote",
+      "engagement": "complete",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2024-02",
+        "to": "2026-04",
+        "months": 27
+      },
+      "description": {
+        "en": "Development Consultant at Sofka Technologies, designing software architectures and driving end-to-end delivery of mission-critical solutions across banking, insurance, logistics, and AI domains.",
+        "es": "Consultor de Desarrollo en Sofka Technologies, diseñando arquitecturas de software e impulsando la entrega end-to-end de soluciones críticas en banca, seguros, logística e inteligencia artificial."
+      },
+      "keyAchievements": [
+        "Delivered high-availability digital banking systems.",
+        "Launched specialized insurance quoting system for mobile fleets.",
+        "Delivered full-featured ERP for logistics sector.",
+        "Designed, developed and stabilized AI agents in production."
+      ],
+      "projects": [
+        "iris",
+        "skai",
+        "operational_commercial_dashboard"
+      ],
+      "clientLocation": {
+        "country": "Colombia",
+        "city": "Medellín",
+        "lat": 6.2442,
+        "lng": -75.5812,
+        "verified": true
+      },
+      "brandColor": "#F26522"
+    },
+    {
+      "id": "suramx",
+      "company": {
+        "name": "Suramericana",
+        "industries": [
+          "Insurance"
+        ]
+      },
+      "role": "Backend Developer",
+      "consultancy": true,
+      "modality": "remote",
+      "engagement": "complete",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2024-12",
+        "to": "2025-05",
+        "months": 6
+      },
+      "description": {
+        "en": "Java Developer contributing to the design and delivery of asynchronous microservices for a mobile fleet insurance quoting system with message-driven architecture and financial data integration.",
+        "es": "Desarrollador Java contribuyendo al diseño y entrega de microservicios asincrónicos para un sistema de cotización de seguros de flotas móviles con arquitectura orientada a mensajes e integración con datos financieros."
+      },
+      "metrics": {
+        "vehiclesPerFleetRequest": 3000,
+        "quotationsPerMonth": 100000,
+        "blockingCallTimeoutSec": 30,
+        "hardTimeoutSec": 300,
+        "throughputMultiplierX": 2,
+        "unitTestCoveragePercent": 100,
+        "loadTestCoveragePercent": 100,
+        "testEfficiencyIncreasePercent": 22.41,
+        "userStoryTimeReductionPercent": 40,
+        "aiMaturityBefore": 2.3,
+        "aiMaturityAfter": 3.17,
+        "teamSize": 15
+      },
+      "keyAchievements": [
+        "Reactive microservices scaling to 3,000 vehicles/fleet and 100,000 quotations/month.",
+        "Rebuilt reporting pipeline; eliminated 30s blocking calls and 5-min timeouts; 2× throughput.",
+        "100% unit and JMeter load-test coverage on critical paths.",
+        "+22.41% test creation efficiency; 40% reduction in user story definition time.",
+        "AI maturity from 2.3/5 to 3.17/5 across a 15-person cross-functional team."
+      ],
+      "projects": [
+        "mobile_fleet_quoter"
+      ],
+      "clientLocation": {
+        "country": "Mexico",
+        "city": "Ciudad de México",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "verified": true
+      },
+      "brandColor": "#00377A"
+    },
+    {
+      "id": "zanacode",
+      "company": {
+        "name": "Zanacode",
+        "industries": [
+          "Software",
+          "Consultancy"
+        ]
+      },
+      "role": "Mobile Developer",
+      "consultancy": false,
+      "modality": "remote",
+      "engagement": "freelance",
+      "location": {
+        "city": "Medellin",
+        "state": "Antioquia",
+        "country": "Colombia"
+      },
+      "period": {
+        "from": "2023-02",
+        "to": "2023-11",
+        "months": 10
+      },
+      "description": {
+        "en": "Mobile Developer via Zanacode delivering cross-platform React Native applications with offline-first CRDT synchronization for engineering-domain clients.",
+        "es": "Mobile Developer a través de Zanacode entregando aplicaciones cross-platform en React Native con sincronización offline-first basada en CRDT para clientes del dominio de ingeniería."
+      },
+      "keyAchievements": [
+        "Improved cross-platform app stability on iOS and Android, reducing crash rates.",
+        "Implemented end-to-end authentication flows in React Native and React.js.",
+        "Designed domain-specific formulas and data binding logic for directional drilling."
+      ],
+      "projects": [
+        "itarget"
+      ],
+      "clientLocation": {
+        "country": "Colombia",
+        "city": "Medellín",
+        "lat": 6.2442,
+        "lng": -75.5812,
+        "verified": true
+      },
+      "brandColor": "#64748B"
+    }
+  ],
+  "projects": [
+    {
+      "id": "seb",
+      "experienceId": "bmc",
+      "name": "SEB (Sistema Electrónico de Subastas)",
+      "clientType": "external",
+      "description": {
+        "en": "Electronic auction platform of the Bolsa Mercantil de Colombia (BMC). Orchestrates real-time auctions across Public Procurement, Private Procurement, and Financial Instruments markets.",
+        "es": "Plataforma electrónica de subastas de la BMC. Orquesta subastas en tiempo real para los mercados de Compras Públicas, Privadas e Instrumentos Financieros."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "automation": 2,
+        "ux": 4
+      },
+      "features": [
+        {
+          "category": "automation",
+          "name": "Automatic auction activation for public and private procurement markets"
+        },
+        {
+          "category": "ux",
+          "name": "Real-time visualization of offers, bids and matching postures"
+        },
+        {
+          "category": "ux",
+          "name": "Countdown timer for suspended/resumed products within an auction round"
+        },
+        {
+          "category": "ux",
+          "name": "Full offer history modal with traceability for IFIN products (TYV)"
+        },
+        {
+          "category": "ux",
+          "name": "Integrated chat with unread-message tooltip and persistent notifications"
+        },
+        {
+          "category": "automation",
+          "name": "Centralized audit log with single time-source synchronization"
+        }
+      ],
+      "stack": [
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "SignalR",
+        "C#",
+        ".NET",
+        "SQL Server",
+        "Stored Procedures"
+      ],
+      "architecture": [
+        "Client-Server",
+        "Event Driven Architecture",
+        "Real-Time Communication",
+        "Modular Frontend",
+        "Caching"
+      ],
+      "services": [
+        "SignalR Hub",
+        "Audit Log Service",
+        "Chat Service"
+      ],
+      "links": [
+        {
+          "type": "pdf",
+          "label": "SEB User Manual (BMC)",
+          "url": "https://mercadoybolsa.com/wp-content/uploads/2024/06/MANUAL-SEB_compressed.pdf"
+        },
+        {
+          "type": "web",
+          "label": "SEB login portal",
+          "url": "https://seb.bolsamercantil.com.co/login"
+        }
+      ]
+    },
+    {
+      "id": "blu_app_2",
+      "experienceId": "dinersclub",
+      "name": "Blu App 2.0",
+      "clientType": "external",
+      "description": {
+        "en": "Diners Club app for card management, payments, transfers, and financing tools. Unifies Diners Club, TITANIUM, and Discover cards with cross-sell recommendations.",
+        "es": "App de Diners Club para gestión de tarjetas, pagos, transferencias y financiamiento. Unifica tarjetas Diners Club, TITANIUM y Discover con recomendaciones de cross-sell."
+      },
+      "featureCount": 9,
+      "featureCategories": {
+        "payments": 1,
+        "transfers": 1,
+        "account_management": 2,
+        "financing": 2,
+        "benefits": 1,
+        "cross_sell": 1,
+        "cash_access": 1
+      },
+      "features": [
+        {
+          "category": "payments",
+          "name": "QR payments through Deuna"
+        },
+        {
+          "category": "transfers",
+          "name": "Direct card-to-account transfers"
+        },
+        {
+          "category": "account_management",
+          "name": "Unified view across Diners Club, TITANIUM, and Discover"
+        },
+        {
+          "category": "account_management",
+          "name": "On-demand access to card details and statements"
+        },
+        {
+          "category": "financing",
+          "name": "Deferred payment plans (national and international)"
+        },
+        {
+          "category": "benefits",
+          "name": "Curated exclusive services and lifestyle experiences"
+        },
+        {
+          "category": "cross_sell",
+          "name": "Personalized cross-sell recommendations"
+        },
+        {
+          "category": "cash_access",
+          "name": "ATM withdrawals across affiliated networks"
+        },
+        {
+          "category": "financing",
+          "name": "Instant cash advances with flexible repayment"
+        }
+      ],
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Axios",
+        "node-forge",
+        "crypto-js",
+        "jsencrypt",
+        "uuid",
+        "nanoid",
+        "eventemitter3",
+        "react-native-mmkv",
+        "Sentry",
+        "Webpack",
+        "Jest",
+        "UglifyJS",
+        "Husky",
+        "ESLint",
+        "Prettier",
+        "Babel",
+        "Java",
+        "Spring Boot",
+        "JPA",
+        "JDBC",
+        "Pipelinr",
+        "Resillient4J",
+        "Redis",
+        "Mapstruct",
+        "VisualVM",
+        "JMeter",
+        "Oracle Database",
+        "Katalon Studio",
+        "Crashlytics",
+        "Native Modules"
+      ],
+      "architecture": [
+        "Clean Architecture",
+        "Domain-Driven Design (DDD)",
+        "Use Case Pattern",
+        "Repository Pattern",
+        "Controller Pattern",
+        "Event System (EventEmitter3)",
+        "Encryption Layer (RSA/AES)",
+        "Cross-Platform Storage",
+        "Aspect Oriented Programming",
+        "Microservices",
+        "Backend for Frontend",
+        "Caching",
+        "Event Sourcing",
+        "Banking Industry Architecture Network"
+      ],
+      "services": [
+        "Facephi",
+        "Feedzai",
+        "Azure DevOps Pipelines",
+        "Azure Service Bus",
+        "Azure Artifacts",
+        "S3",
+        "EKS",
+        "Redis",
+        "Sentry Monitoring"
+      ],
+      "links": [
+        {
+          "type": "appstore",
+          "label": "Available on the App Store",
+          "url": "https://apps.apple.com/co/app/blu-de-diners-club/id6744373951"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "experienceId": "dinersclub",
+      "name": "WhatsApp Conversational Banking - Architecture Transition",
+      "clientType": "external",
+      "description": {
+        "en": "Migrated the Diners Club / Interdin conversational banking orchestration from n8n to a serverless AWS-native architecture on Step Functions + DynamoDB + Bedrock + Weaviate (RAG).",
+        "es": "Migró la orquestación de banca conversacional de Diners Club / Interdin desde n8n a una arquitectura serverless AWS-nativa sobre Step Functions + DynamoDB + Bedrock + Weaviate (RAG)."
+      },
+      "featureCount": 12,
+      "featureCategories": {
+        "account_management": 1,
+        "authentication": 1,
+        "security": 2,
+        "conversational_ai": 2,
+        "session_management": 1,
+        "document_delivery": 1,
+        "user_experience": 1,
+        "reliability": 2,
+        "cost_optimization": 1
+      },
+      "features": [
+        {
+          "category": "account_management",
+          "name": "Conversational balance, credit limit, and movements via WhatsApp"
+        },
+        {
+          "category": "authentication",
+          "name": "MSISDN-to-CIF validation via 'Consolidado' login service"
+        },
+        {
+          "category": "security",
+          "name": "OTP-secured card blocking (Wait for Task Token pattern)"
+        },
+        {
+          "category": "conversational_ai",
+          "name": "Router-Solver cognitive orchestrator on Bedrock"
+        },
+        {
+          "category": "conversational_ai",
+          "name": "RAG Q&A over cardholder benefits (Weaviate + Bedrock)"
+        },
+        {
+          "category": "session_management",
+          "name": "Conversation memory in DynamoDB with TTL and GSI lookup"
+        },
+        {
+          "category": "document_delivery",
+          "name": "Native PDF statements via Infobip send-file endpoint"
+        },
+        {
+          "category": "user_experience",
+          "name": "Typing indicator during legacy core latency"
+        },
+        {
+          "category": "reliability",
+          "name": "Fail-fast resilience with ASL Catchers"
+        },
+        {
+          "category": "reliability",
+          "name": "Cross-cloud circuit breaker (Azure OpenAI -> AWS Bedrock)"
+        },
+        {
+          "category": "cost_optimization",
+          "name": "All-in Bedrock routing between light and heavy models"
+        },
+        {
+          "category": "security",
+          "name": "HMAC signature validation and input sanitization in Router Lambda"
+        }
+      ],
+      "stack": [
+        "AWS Step Functions",
+        "Amazon States Language (ASL)",
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon API Gateway",
+        "AWS Bedrock",
+        "Claude 3.5 Sonnet",
+        "Claude 3 Haiku",
+        "Amazon Titan",
+        "Azure OpenAI",
+        "Weaviate",
+        "Infobip",
+        "WhatsApp Business (Meta)",
+        "Python",
+        "Node.js",
+        "AWS SDK",
+        "IaC"
+      ],
+      "architecture": [
+        "Serverless",
+        "Microservices (reused)",
+        "Backend for Frontend",
+        "State Machines (ASL)",
+        "Router-Solver Pattern",
+        "Cognitive Orchestrator",
+        "Wait for Task Token",
+        "Fail-Fast Pattern",
+        "Circuit Breaker Pattern",
+        "RAG",
+        "Tool Use / Function Calling",
+        "Data Abstraction Layer (DAL)",
+        "Event-Driven Architecture",
+        "Choice States Routing",
+        "Least-Privilege IAM",
+        "Spec-Driven Development (SDD)"
+      ],
+      "services": [
+        "AWS Step Functions",
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon API Gateway",
+        "AWS Bedrock",
+        "AWS IAM",
+        "Amazon CloudWatch",
+        "Weaviate",
+        "Azure OpenAI",
+        "Infobip Messaging",
+        "BIAN",
+        "Proprietary OTP API",
+        "Identity Service"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "label": "Chatbot",
+          "url": "https://www.dinersclub.com.ec/centro-de-soporte/whatsapp"
+        }
+      ]
+    },
+    {
+      "id": "fpk_jobs",
+      "experienceId": "firplak",
+      "name": "fpkjobs",
+      "clientType": "internal",
+      "description": {
+        "en": "Python library to queue jobs sourced from Microsoft Graph with structured event/execution logging and Power BI metric pipelines for IT.",
+        "es": "Librería Python para encolar trabajos con datos de Microsoft Graph, con logging estructurado y métricas para Power BI de IT."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "automation": 2,
+        "observability": 2,
+        "integration": 2
+      },
+      "features": [
+        {
+          "category": "automation",
+          "name": "Pydantic-based job queueing framework with Graph ingestion"
+        },
+        {
+          "category": "automation",
+          "name": "Two production-grade automations built on the library"
+        },
+        {
+          "category": "observability",
+          "name": "Structured event and execution logging"
+        },
+        {
+          "category": "observability",
+          "name": "Metric pipeline feeding Power BI IT dashboards"
+        },
+        {
+          "category": "integration",
+          "name": "Power Platform bridge avoiding premium connector licensing"
+        },
+        {
+          "category": "integration",
+          "name": "Dataverse synchronization layer"
+        }
+      ],
+      "stack": [
+        "Python",
+        "Pydantic",
+        "Microsoft Graph SDK",
+        "Power Platform",
+        "Dataverse",
+        "Power BI"
+      ],
+      "architecture": [
+        "Job Queue",
+        "Event Driven Architecture",
+        "Observability",
+        "Library / Framework"
+      ],
+      "services": [
+        "Microsoft Graph",
+        "Power Automate",
+        "Power BI",
+        "Dataverse"
+      ],
+      "links": []
+    },
+    {
+      "id": "power_platform_sap_b1_connector",
+      "experienceId": "firplak",
+      "name": "FPKSapConnector",
+      "clientType": "internal",
+      "description": {
+        "en": "REST API bridge between Power Platform and SAP Business One, exposing authentication, predefined queries, and CRUD over SAP Business Objects.",
+        "es": "API REST puente entre Power Platform y SAP Business One con autenticación, consultas predefinidas y CRUD sobre Business Objects."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "security": 2,
+        "integration": 3,
+        "automation": 1
+      },
+      "features": [
+        {
+          "category": "security",
+          "name": "Auth against native SAP B1 credentials"
+        },
+        {
+          "category": "security",
+          "name": "Secure SAP B1 DI API connection"
+        },
+        {
+          "category": "integration",
+          "name": "Predefined SQL queries exposed as governed REST"
+        },
+        {
+          "category": "integration",
+          "name": "Full CRUD over SAP Business Objects"
+        },
+        {
+          "category": "integration",
+          "name": "Native Power Apps / Power Automate compatibility"
+        },
+        {
+          "category": "automation",
+          "name": "Three production automations built on top"
+        }
+      ],
+      "stack": [
+        "C#",
+        "ASP.NET",
+        "Entity Framework",
+        "SAP B1 DI API",
+        "OpenAPI / Swagger"
+      ],
+      "architecture": [
+        "REST API",
+        "Layered Architecture",
+        "Integration Bridge"
+      ],
+      "services": [
+        "SAP Business One",
+        "Power Apps",
+        "Power Automate"
+      ],
+      "links": []
+    },
+    {
+      "id": "trackpod",
+      "experienceId": "firplak",
+      "name": "Trackpod",
+      "clientType": "external",
+      "description": {
+        "en": "Multiplatform proof-of-delivery app (iOS, Android, Web) enabling carriers to assign guides and drivers to upload evidence from the field.",
+        "es": "App multiplataforma (iOS, Android, Web) para envío y gestión de pruebas de entrega."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "ux": 3,
+        "security": 1,
+        "automation": 2
+      },
+      "features": [
+        {
+          "category": "ux",
+          "name": "Single shared codebase for iOS, Android and Web"
+        },
+        {
+          "category": "security",
+          "name": "Credential-based auth with password recovery"
+        },
+        {
+          "category": "ux",
+          "name": "Admin dashboard for users, carriers, novelties, and guides"
+        },
+        {
+          "category": "automation",
+          "name": "Guide assignment workflow via carrier"
+        },
+        {
+          "category": "automation",
+          "name": "Mobile proof-of-delivery submission"
+        },
+        {
+          "category": "ux",
+          "name": "Notification system for newly assigned guides"
+        }
+      ],
+      "stack": [
+        "NestJS",
+        "React.js",
+        "React Native",
+        "AdminJS",
+        "Google Cloud"
+      ],
+      "architecture": [
+        "Multiplatform / Cross-platform",
+        "REST API",
+        "Modular Monolith"
+      ],
+      "services": [
+        "Google Cloud"
+      ],
+      "links": []
+    },
+    {
+      "id": "softlot",
+      "experienceId": "lotrading",
+      "name": "Softlot",
+      "clientType": "internal",
+      "description": {
+        "en": "L.O. Trading's proprietary logistics platform modernized as a scalable AI-assisted system managing the full logistics workflow for import, export, and international trade.",
+        "es": "Plataforma logística propietaria de L.O. Trading modernizada como sistema escalable asistido por IA que gestiona el flujo logístico completo para importación, exportación y comercio internacional."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "automation": 3,
+        "ux": 2,
+        "performance": 1
+      },
+      "features": [
+        {
+          "category": "automation",
+          "name": "End-to-end logistics workflow (purchasing to final delivery)"
+        },
+        {
+          "category": "automation",
+          "name": "Import, export, and international transportation ops"
+        },
+        {
+          "category": "automation",
+          "name": "Customs and regulatory compliance for cross-border trade"
+        },
+        {
+          "category": "ux",
+          "name": "Highly customizable per-client workflows"
+        },
+        {
+          "category": "ux",
+          "name": "Modular UI across 60+ screens on Atomic Design"
+        },
+        {
+          "category": "performance",
+          "name": "Sub-second reactive APIs on critical services"
+        }
+      ],
+      "metrics": {
+        "screens": 60,
+        "legacyYears": 18,
+        "apiResponseTimeXImprovement": 3
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "local_auth",
+        "pinput",
+        "showcaseview",
+        "OpenTelemetry",
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "v0",
+        "firebase_auth",
+        "flutter_launcher_icons",
+        "uuid",
+        "crypto",
+        "permission_handler",
+        "intl",
+        "sqflite",
+        "Java 21",
+        "Spring Webflux",
+        "Project Reactor",
+        "R2DBC",
+        "Prismic",
+        "MongoDB",
+        "JasperReports"
+      ],
+      "architecture": [
+        "Microservices",
+        "DDD",
+        "Event Driven Architecture",
+        "Caching",
+        "Retrying"
+      ],
+      "services": [
+        "Firebase Authentication",
+        "OpenShift",
+        "Azure Service Bus"
+      ],
+      "links": [
+        {
+          "type": "youtube",
+          "label": "Results of modernizing your business software: Real case study with L.O. Trading (TechDay 25)",
+          "url": "https://www.youtube.com/watch?v=q2T7OIynT1w"
+        }
+      ]
+    },
+    {
+      "id": "iris",
+      "experienceId": "sofka",
+      "name": "Iris",
+      "clientType": "internal",
+      "description": {
+        "en": "AI agent that generates and structures requirements from business context, transforming information into epics and user stories with a human-in-the-loop approach.",
+        "es": "Agente de IA que genera y estructura requisitos desde el contexto de negocio, transformando información en épicas e historias de usuario con enfoque human-in-the-loop."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "automation": 3,
+        "ux": 3
+      },
+      "features": [
+        {
+          "category": "automation",
+          "name": "Guided project setup and scoped user story definition"
+        },
+        {
+          "category": "automation",
+          "name": "OCR-powered knowledge base for accurate user story definition"
+        },
+        {
+          "category": "automation",
+          "name": "Automated Azure DevOps user story creation (Epics, US, Technical)"
+        },
+        {
+          "category": "ux",
+          "name": "Conversational chat interface with multiple LLMs"
+        },
+        {
+          "category": "ux",
+          "name": "Persistent conversation history with traceability"
+        },
+        {
+          "category": "ux",
+          "name": "Bookmarking system for chats and prompts"
+        }
+      ],
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Gemini SDK",
+        "Redis",
+        "MongoDB",
+        "OpenTelemetry",
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Firebase",
+        "Tenacity",
+        "SSE"
+      ],
+      "architecture": [
+        "Modulith",
+        "DDD",
+        "Event Driven Architecture",
+        "Caching",
+        "Retrying",
+        "Sagas"
+      ],
+      "services": [
+        "Firebase Authentication",
+        "LangSmith",
+        "Azure Functions",
+        "Azure AI Foundry",
+        "Azure OpenAI Service"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "label": "AI Center accelerators presentation",
+          "url": "https://sofka.com.co/AI-Center.html"
+        }
+      ]
+    },
+    {
+      "id": "skai",
+      "experienceId": "sofka",
+      "name": "SkAI",
+      "clientType": "internal",
+      "description": {
+        "en": "AI-powered portal that accelerates the software development lifecycle with chained multi-stage prompts, curated model catalogs, and automated workflows.",
+        "es": "Portal impulsado por IA que acelera el ciclo de vida del desarrollo con prompts encadenados multi-etapa, catálogos curados de modelos y flujos automatizados."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "automation": 3,
+        "ux": 3
+      },
+      "features": [
+        {
+          "category": "automation",
+          "name": "Chained multi-stage prompts orchestrating business processes"
+        },
+        {
+          "category": "automation",
+          "name": "Automated AI pipelines with prompts, agents and tools"
+        },
+        {
+          "category": "automation",
+          "name": "Catalog of trained and fine-tuned domain-specialized models"
+        },
+        {
+          "category": "ux",
+          "name": "Conversational chat with multiple LLMs"
+        },
+        {
+          "category": "ux",
+          "name": "Persistent conversation history with traceability"
+        },
+        {
+          "category": "ux",
+          "name": "Bookmarking system for chats and prompts"
+        }
+      ],
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Redis",
+        "Neo4J",
+        "OpenTelemetry",
+        "LangSmith",
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Firebase",
+        "Tenacity",
+        "SSE"
+      ],
+      "architecture": [
+        "Modulith",
+        "DDD",
+        "Event Driven Architecture",
+        "Caching",
+        "Retrying",
+        "Sagas"
+      ],
+      "services": [
+        "Firebase Authentication",
+        "LangSmith",
+        "Azure Functions",
+        "Azure AI Foundry",
+        "Azure OpenAI Service"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "label": "AI Center accelerators presentation",
+          "url": "https://sofka.com.co/AI-Center.html"
+        }
+      ]
+    },
+    {
+      "id": "operational_commercial_dashboard",
+      "experienceId": "sofka",
+      "name": "Operational/Commercial Dashboard",
+      "clientType": "internal",
+      "description": {
+        "en": "Sofka's sales intelligence dashboard turning the full commercial pipeline into a weekly diagnostic view: closed won, closed lost, effectiveness, sales cycle duration, committee funnel, and shelved-deal aging.",
+        "es": "Dashboard de inteligencia comercial de Sofka que convierte el pipeline completo en una vista diagnóstica semanal: won/lost, efectividad, ciclo de ventas, funnel de comités y antigüedad shelved."
+      },
+      "featureCount": 17,
+      "featureCategories": {
+        "analytics": 9,
+        "alerts": 1,
+        "insights": 2,
+        "ux": 3,
+        "security": 2
+      },
+      "features": [
+        {
+          "category": "analytics",
+          "name": "Closed Won tracking with weekly/monthly comparatives"
+        },
+        {
+          "category": "analytics",
+          "name": "Closed Lost breakdown by category, month, and monetary impact"
+        },
+        {
+          "category": "analytics",
+          "name": "Commercial effectiveness KPI with country/BU gap detection"
+        },
+        {
+          "category": "analytics",
+          "name": "Geographic distribution of wins and losses"
+        },
+        {
+          "category": "analytics",
+          "name": "Sales cycle duration analysis (won vs lost)"
+        },
+        {
+          "category": "analytics",
+          "name": "Discovery/approval funnel (Committee 1 to Committee 2)"
+        },
+        {
+          "category": "analytics",
+          "name": "Active pipeline USD overview"
+        },
+        {
+          "category": "alerts",
+          "name": "Shelved-deal monitoring (>6 months aging alerts)"
+        },
+        {
+          "category": "analytics",
+          "name": "Win/loss attribution by category with MoM evolution"
+        },
+        {
+          "category": "insights",
+          "name": "Automated narrative insights and prescriptive callouts"
+        },
+        {
+          "category": "ux",
+          "name": "Multi-dimensional filtering (country/BU/company/date)"
+        },
+        {
+          "category": "ux",
+          "name": "Modular nine-section navigation top-down flow"
+        },
+        {
+          "category": "analytics",
+          "name": "Monthly trend visualizations of shelved volume/value"
+        },
+        {
+          "category": "analytics",
+          "name": "Per-client/per-deal drill-down tables"
+        },
+        {
+          "category": "insights",
+          "name": "Country-level effectiveness benchmarking"
+        },
+        {
+          "category": "security",
+          "name": "Google OAuth corporate authentication"
+        },
+        {
+          "category": "security",
+          "name": "Role-based authorization scoped by operation/position"
+        }
+      ],
+      "stack": [
+        "React",
+        "Next.js",
+        "Vite",
+        "TypeScript",
+        "NX",
+        "Jotai",
+        "TanStack Query",
+        "Zod",
+        "Recharts",
+        "TanStack Virtual",
+        "ShadCN",
+        "TailwindCSS",
+        "lucide-react",
+        "react-router-dom",
+        "react-i18next",
+        "better-sqlite3",
+        "mysql2",
+        "jose",
+        "google-auth-library",
+        "Anthropic API",
+        "Google OAuth"
+      ],
+      "architecture": [
+        "Modulith",
+        "DDD",
+        "Use Case Pattern",
+        "Repository Pattern",
+        "Atomic Design",
+        "State Compression",
+        "Observer Pattern (Jotai)",
+        "RBAC"
+      ],
+      "services": [
+        "Google OAuth",
+        "Cloud SQL",
+        "Vercel",
+        "GitLab CI/CD"
+      ],
+      "links": []
+    },
+    {
+      "id": "mobile_fleet_quoter",
+      "experienceId": "suramx",
+      "name": "Mobile Fleet Quoter",
+      "clientType": "external",
+      "description": {
+        "en": "Mobile fleet insurance quoting platform on async microservices streamlining the quotation lifecycle from multi-vehicle policy creation to background report generation.",
+        "es": "Plataforma móvil de cotización de seguros de flotas sobre microservicios asíncronos que agiliza el ciclo de cotización, desde pólizas multi-vehículo hasta reportes en segundo plano."
+      },
+      "featureCount": 13,
+      "featureCategories": {
+        "backend": 6,
+        "ux": 1,
+        "integration": 3,
+        "performance": 3
+      },
+      "features": [
+        {
+          "category": "backend",
+          "name": "Mobile access to fleet insurance quoting"
+        },
+        {
+          "category": "backend",
+          "name": "Multi-vehicle fleet policy quoting"
+        },
+        {
+          "category": "backend",
+          "name": "Microservices with independent scaling and deployment"
+        },
+        {
+          "category": "backend",
+          "name": "Async processing of long-running operations"
+        },
+        {
+          "category": "backend",
+          "name": "Non-blocking report requests"
+        },
+        {
+          "category": "backend",
+          "name": "Message-broker-based report queueing"
+        },
+        {
+          "category": "ux",
+          "name": "Notifications when reports are ready"
+        },
+        {
+          "category": "integration",
+          "name": "Live financial data integration in quotations"
+        },
+        {
+          "category": "integration",
+          "name": "Consolidated multi-provider quotations"
+        },
+        {
+          "category": "integration",
+          "name": "Source traceability for financial data"
+        },
+        {
+          "category": "performance",
+          "name": "Automated performance testing pipeline"
+        },
+        {
+          "category": "performance",
+          "name": "Process scheduler tuning for peak-hour throughput"
+        },
+        {
+          "category": "performance",
+          "name": "Sustained low response times under heavy load"
+        }
+      ],
+      "metrics": {
+        "vehiclesPerFleet": 3000,
+        "quotationsPerMonth": 100000,
+        "throughputMultiplierX": 2,
+        "unitTestCoveragePercent": 100,
+        "loadTestCoveragePercent": 100
+      },
+      "stack": [
+        "Java 17",
+        "Spring Boot",
+        "Spring WebFlux",
+        "Project Reactor",
+        "Gradle",
+        "Bancolombia Clean Architecture Plugin",
+        "Lombok",
+        "MapStruct",
+        "JUnit 5",
+        "Mockito",
+        "Spring Boot Test",
+        "Reactor Test",
+        "BlockHound",
+        "ArchUnit",
+        "JaCoCo",
+        "PiTest",
+        "SonarQube",
+        "Eclipse Temurin JDK 17"
+      ],
+      "architecture": [
+        "Clean Architecture",
+        "Hexagonal Architecture (Ports & Adapters)",
+        "Domain-Driven Design",
+        "Use Case Pattern",
+        "Repository Pattern",
+        "Reactive Programming",
+        "Sealed Classes",
+        "Container-Ready"
+      ],
+      "services": [
+        "Azure AD B2C",
+        "Azure Service Bus",
+        "SonarQube Code Analysis",
+        "OpenShift",
+        "OpenAPI 3.0 API Specification"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "label": "Live application",
+          "url": "https://tuseguro.segurossura.com.mx/auto/"
+        }
+      ]
+    },
+    {
+      "id": "itarget",
+      "experienceId": "zanacode",
+      "name": "iTarget",
+      "clientType": "internal",
+      "description": {
+        "en": "Internal app for Target Direccional that simplifies field measurement registration and computes engineering metrics for directional drilling, with offline-first CRDT sync.",
+        "es": "App interna para Target Direccional que simplifica el registro de mediciones en campo y calcula métricas de ingeniería para perforación direccional, con sincronización offline-first CRDT."
+      },
+      "featureCount": 6,
+      "featureCategories": {
+        "ux": 2,
+        "automation": 3,
+        "integration": 1
+      },
+      "features": [
+        {
+          "category": "ux",
+          "name": "Fast measurement registration UI for field engineers"
+        },
+        {
+          "category": "automation",
+          "name": "Offline-first data capture without network"
+        },
+        {
+          "category": "automation",
+          "name": "Extraction pipeline for offline data"
+        },
+        {
+          "category": "integration",
+          "name": "CRDT-based sync engine reconciling offline data"
+        },
+        {
+          "category": "automation",
+          "name": "Metric calculation for directional drilling indicators"
+        },
+        {
+          "category": "ux",
+          "name": "Metrics visualization dashboard for real-time decisions"
+        }
+      ],
+      "stack": [
+        "React Native",
+        "Redux",
+        "Redux-Saga",
+        "Material Design",
+        "CRDT",
+        "Firebase"
+      ],
+      "architecture": [
+        "Offline-first",
+        "CRDT-based Synchronization",
+        "Sagas",
+        "Data Pipeline"
+      ],
+      "services": [
+        "Firestore"
+      ],
+      "links": []
+    }
+  ],
+  "metrics": {
+    "impact": {
+      "usersServed": [
+        {
+          "experience": "dinersclub",
+          "product": "Blu App 2.0",
+          "value": 250000,
+          "unit": "users",
+          "label": "250K+ digital banking users"
+        }
+      ],
+      "throughputProcessed": [
+        {
+          "experience": "suramx",
+          "product": "Mobile Fleet Quoter",
+          "value": 100000,
+          "unit": "quotations/month",
+          "label": "100K quotations/month"
+        },
+        {
+          "experience": "suramx",
+          "product": "Mobile Fleet Quoter",
+          "value": 3000,
+          "unit": "vehicles/fleet request",
+          "label": "3K vehicles per fleet"
+        }
+      ],
+      "peopleTrained": [
+        {
+          "experience": "dinersclub",
+          "context": "AI Center enablement",
+          "value": 24,
+          "unit": "developers"
+        },
+        {
+          "experience": "suramx",
+          "context": "cross-functional team AI adoption",
+          "value": 15,
+          "unit": "people"
+        },
+        {
+          "experience": "dinersclub",
+          "context": "cross-functional squad",
+          "value": 30,
+          "unit": "people"
+        }
+      ],
+      "hoursSaved": [
+        {
+          "experience": "firplak",
+          "context": "supply chain automation",
+          "value": 30,
+          "unit": "hours/week",
+          "annualized": 1560
+        }
+      ]
+    },
+    "timeReductions": [
+      {
+        "experience": "lotrading",
+        "context": "project timeline (10 mo → 5 mo)",
+        "percent": 50,
+        "absoluteMonths": 5
+      },
+      {
+        "experience": "lotrading",
+        "context": "unit-testing & legacy migration effort via GitHub Copilot",
+        "percent": 80
+      },
+      {
+        "experience": "suramx",
+        "context": "user story definition time",
+        "percent": 40
+      },
+      {
+        "experience": "lotrading",
+        "context": "API response time (2–3s → <1s)",
+        "multiplierX": 3
+      },
+      {
+        "experience": "suramx",
+        "context": "async report generation blocking eliminated",
+        "fromSeconds": 30,
+        "toSeconds": 0
+      }
+    ],
+    "performanceGains": [
+      {
+        "experience": "lotrading",
+        "product": "SOFTLOT APIs",
+        "multiplierX": 3,
+        "context": "response time"
+      },
+      {
+        "experience": "suramx",
+        "product": "Report pipeline",
+        "multiplierX": 2,
+        "context": "throughput"
+      }
+    ],
+    "quality": {
+      "testCoverage": [
+        {
+          "experience": "lotrading",
+          "context": "critical backend services",
+          "percent": 100
+        },
+        {
+          "experience": "suramx",
+          "context": "unit tests on critical paths",
+          "percent": 100
+        },
+        {
+          "experience": "suramx",
+          "context": "JMeter load tests on critical paths",
+          "percent": 100
+        }
+      ],
+      "efficiencyGains": [
+        {
+          "experience": "suramx",
+          "context": "test case creation efficiency",
+          "percent": 22.41
+        }
+      ]
+    },
+    "aiMaturityShifts": [
+      {
+        "experience": "suramx",
+        "before": 2.3,
+        "after": 3.17,
+        "scale": 5,
+        "delta": 0.87,
+        "teamSize": 15
+      },
+      {
+        "experience": "dinersclub",
+        "before": 3.87,
+        "after": 4.02,
+        "scale": 5,
+        "delta": 0.15,
+        "teamSize": 24,
+        "context": "AI Center enablement of 24 developers"
+      }
+    ],
+    "scale": {
+      "screens": [
+        {
+          "experience": "lotrading",
+          "product": "SOFTLOT",
+          "count": 60
+        }
+      ],
+      "legacyLifespanYears": [
+        {
+          "experience": "lotrading",
+          "product": "SOFTLOT (original)",
+          "years": 18
+        }
+      ]
+    },
+    "budgets": {
+      "budgetsAndSavings": [
+        {
+          "experience": "firplak",
+          "context": "supply chain hours saved (annualized at 30h/wk × 52wk)",
+          "hoursPerYear": 1560
+        }
+      ]
+    },
+    "aggregates": {
+      "totalExperiences": 7,
+      "totalProjects": 12,
+      "totalUniqueTechnologies": 136,
+      "totalUniqueArchitectures": 57,
+      "totalUniqueServices": 46,
+      "totalYearsExperience": 5,
+      "totalCertifications": 14,
+      "totalEducationEntries": 4,
+      "totalLanguagesSpoken": 2
+    }
+  },
+  "timeline": {
+    "work": [
+      {
+        "id": "firplak",
+        "type": "work",
+        "label": "Firplak S.A: Fullstack Developer",
+        "start": "2021-11",
+        "end": "2023-12",
+        "durationMonths": 26
+      },
+      {
+        "id": "zanacode",
+        "type": "work",
+        "label": "Zanacode: Mobile Developer",
+        "start": "2023-02",
+        "end": "2023-11",
+        "durationMonths": 10
+      },
+      {
+        "id": "sofka",
+        "type": "work",
+        "label": "Sofka Technologies: Development Consultant",
+        "start": "2024-02",
+        "end": "2026-04",
+        "durationMonths": 27
+      },
+      {
+        "id": "bmc",
+        "type": "work-consultancy",
+        "label": "BMC: Fullstack (Consultant)",
+        "start": "2024-02",
+        "end": "2024-12",
+        "durationMonths": 11,
+        "parent": "sofka"
+      },
+      {
+        "id": "lotrading",
+        "type": "work-consultancy",
+        "label": "L.O. Trading: Backend (Consultant)",
+        "start": "2024-05",
+        "end": "2024-12",
+        "durationMonths": 8,
+        "parent": "sofka"
+      },
+      {
+        "id": "suramx",
+        "type": "work-consultancy",
+        "label": "SURA México: Backend (Consultant)",
+        "start": "2024-12",
+        "end": "2025-05",
+        "durationMonths": 6,
+        "parent": "sofka"
+      },
+      {
+        "id": "dinersclub",
+        "type": "work-consultancy",
+        "label": "Diners Club Ecuador: Fullstack (Consultant)",
+        "start": "2025-05",
+        "end": "2026-02",
+        "durationMonths": 10,
+        "parent": "sofka"
+      },
+      {
+        "id": "templ8r",
+        "type": "work",
+        "label": "templ8r.co: Founding Engineer",
+        "start": "2026-04",
+        "end": null,
+        "durationMonths": null
+      }
+    ],
+    "education": [
+      {
+        "type": "education",
+        "label": "SENA: Computer Maintenance Technician",
+        "start": "2019-04",
+        "end": "2020-04"
+      },
+      {
+        "type": "education",
+        "label": "Universidad Nacional: Systems & Computer Engineering",
+        "start": "2021-01",
+        "end": "2025-12"
+      },
+      {
+        "type": "education",
+        "label": "ITM: Mobile Application Development Technology",
+        "start": "2026-01",
+        "end": null
+      }
+    ],
+    "certifications": [
+      {
+        "type": "certification",
+        "label": "ILO: Diploma in Programming Skills",
+        "date": "2021-01"
+      },
+      {
+        "type": "certification",
+        "label": "UNAL: Mobile Application Development Diploma",
+        "date": "2021-12"
+      },
+      {
+        "type": "certification",
+        "label": "Red Hat: PE124 System Administration I",
+        "date": "2022-02"
+      },
+      {
+        "type": "certification",
+        "label": "Cisco: Introduction to Cybersecurity",
+        "date": "2022-03"
+      },
+      {
+        "type": "certification",
+        "label": "EF SET: English C2 Proficient",
+        "date": "2022-04"
+      },
+      {
+        "type": "certification",
+        "label": "Duke University: Cloud Computing Foundations",
+        "date": "2022-07"
+      },
+      {
+        "type": "certification",
+        "label": "Mambu: Solution Consultant I",
+        "date": "2024-04"
+      },
+      {
+        "type": "certification",
+        "label": "Mambu: Solution Consultant II",
+        "date": "2024-04"
+      },
+      {
+        "type": "certification",
+        "label": "2innovate: Configuración de Frame Banking",
+        "date": "2024-05"
+      },
+      {
+        "type": "certification",
+        "label": "AWS Academy: Cloud Foundations",
+        "date": "2025-05"
+      },
+      {
+        "type": "certification",
+        "label": "Google: Cloud Computing Foundations",
+        "date": "2025-06"
+      },
+      {
+        "type": "certification",
+        "label": "AWS: Certified AI Practitioner",
+        "date": "2025-11"
+      },
+      {
+        "type": "certification",
+        "label": "Sofka: Desarrollo Seguro",
+        "date": "2026-01"
+      },
+      {
+        "type": "certification",
+        "label": "UdeA: Bootcamp IA y Desarrollo Agéntico",
+        "date": "2026-07"
+      }
+    ]
+  },
+  "keywordClouds": {
+    "technologies": [
+      {
+        "text": "React",
+        "weight": 12,
+        "category": "frontend"
+      },
+      {
+        "text": "React Native",
+        "weight": 10,
+        "category": "mobile"
+      },
+      {
+        "text": "TypeScript",
+        "weight": 9,
+        "category": "language"
+      },
+      {
+        "text": "Java",
+        "weight": 9,
+        "category": "language"
+      },
+      {
+        "text": "Python",
+        "weight": 8,
+        "category": "language"
+      },
+      {
+        "text": "Spring WebFlux",
+        "weight": 7,
+        "category": "backend"
+      },
+      {
+        "text": "Project Reactor",
+        "weight": 6,
+        "category": "backend"
+      },
+      {
+        "text": "Spring Boot",
+        "weight": 6,
+        "category": "backend"
+      },
+      {
+        "text": "Node.js",
+        "weight": 5,
+        "category": "backend"
+      },
+      {
+        "text": "C#",
+        "weight": 5,
+        "category": "language"
+      },
+      {
+        "text": ".NET",
+        "weight": 4,
+        "category": "backend"
+      },
+      {
+        "text": "ASP.NET",
+        "weight": 3,
+        "category": "backend"
+      },
+      {
+        "text": "NestJS",
+        "weight": 3,
+        "category": "backend"
+      },
+      {
+        "text": "SignalR",
+        "weight": 3,
+        "category": "backend"
+      },
+      {
+        "text": "R2DBC",
+        "weight": 3,
+        "category": "database"
+      },
+      {
+        "text": "Redux",
+        "weight": 6,
+        "category": "frontend"
+      },
+      {
+        "text": "Redux-Saga",
+        "weight": 5,
+        "category": "frontend"
+      },
+      {
+        "text": "Next.js",
+        "weight": 4,
+        "category": "frontend"
+      },
+      {
+        "text": "Angular",
+        "weight": 3,
+        "category": "frontend"
+      },
+      {
+        "text": "TailwindCSS",
+        "weight": 3,
+        "category": "frontend"
+      },
+      {
+        "text": "ShadCN",
+        "weight": 2,
+        "category": "frontend"
+      },
+      {
+        "text": "Vite",
+        "weight": 3,
+        "category": "tooling"
+      },
+      {
+        "text": "LangGraph",
+        "weight": 5,
+        "category": "ai"
+      },
+      {
+        "text": "AWS Bedrock",
+        "weight": 5,
+        "category": "ai"
+      },
+      {
+        "text": "Claude 3.5 Sonnet",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "Claude 3 Haiku",
+        "weight": 2,
+        "category": "ai"
+      },
+      {
+        "text": "Amazon Titan",
+        "weight": 2,
+        "category": "ai"
+      },
+      {
+        "text": "Gemini SDK",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "OpenAI",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "Anthropic API",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "Weaviate",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "RAG",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "MCP",
+        "weight": 2,
+        "category": "ai"
+      },
+      {
+        "text": "GitHub Copilot",
+        "weight": 4,
+        "category": "ai"
+      },
+      {
+        "text": "AWS Step Functions",
+        "weight": 4,
+        "category": "cloud"
+      },
+      {
+        "text": "AWS Lambda",
+        "weight": 4,
+        "category": "cloud"
+      },
+      {
+        "text": "DynamoDB",
+        "weight": 4,
+        "category": "database"
+      },
+      {
+        "text": "MongoDB",
+        "weight": 4,
+        "category": "database"
+      },
+      {
+        "text": "Redis",
+        "weight": 5,
+        "category": "database"
+      },
+      {
+        "text": "Neo4j",
+        "weight": 2,
+        "category": "database"
+      },
+      {
+        "text": "PostgreSQL",
+        "weight": 2,
+        "category": "database"
+      },
+      {
+        "text": "SQL Server",
+        "weight": 3,
+        "category": "database"
+      },
+      {
+        "text": "Oracle Database",
+        "weight": 2,
+        "category": "database"
+      },
+      {
+        "text": "Firebase",
+        "weight": 4,
+        "category": "backend"
+      },
+      {
+        "text": "Firestore",
+        "weight": 2,
+        "category": "database"
+      },
+      {
+        "text": "OpenShift",
+        "weight": 3,
+        "category": "cloud"
+      },
+      {
+        "text": "Kubernetes",
+        "weight": 3,
+        "category": "cloud"
+      },
+      {
+        "text": "Azure Service Bus",
+        "weight": 3,
+        "category": "cloud"
+      },
+      {
+        "text": "Azure AD B2C",
+        "weight": 2,
+        "category": "cloud"
+      },
+      {
+        "text": "Azure DevOps",
+        "weight": 2,
+        "category": "cloud"
+      },
+      {
+        "text": "Azure OpenAI",
+        "weight": 3,
+        "category": "ai"
+      },
+      {
+        "text": "SonarQube",
+        "weight": 4,
+        "category": "tooling"
+      },
+      {
+        "text": "OpenTelemetry",
+        "weight": 4,
+        "category": "observability"
+      },
+      {
+        "text": "Flutter",
+        "weight": 2,
+        "category": "mobile"
+      },
+      {
+        "text": "Dart",
+        "weight": 2,
+        "category": "language"
+      },
+      {
+        "text": "SAP B1",
+        "weight": 3,
+        "category": "erp"
+      },
+      {
+        "text": "Power Platform",
+        "weight": 3,
+        "category": "erp"
+      },
+      {
+        "text": "Microsoft Graph",
+        "weight": 2,
+        "category": "integration"
+      },
+      {
+        "text": "Prismic",
+        "weight": 2,
+        "category": "cms"
+      },
+      {
+        "text": "JasperReports",
+        "weight": 2,
+        "category": "backend"
+      },
+      {
+        "text": "JMeter",
+        "weight": 2,
+        "category": "testing"
+      },
+      {
+        "text": "JUnit 5",
+        "weight": 2,
+        "category": "testing"
+      },
+      {
+        "text": "Jest",
+        "weight": 2,
+        "category": "testing"
+      },
+      {
+        "text": "Katalon Studio",
+        "weight": 1,
+        "category": "testing"
+      },
+      {
+        "text": "ArchUnit",
+        "weight": 1,
+        "category": "testing"
+      },
+      {
+        "text": "PiTest",
+        "weight": 1,
+        "category": "testing"
+      },
+      {
+        "text": "JaCoCo",
+        "weight": 1,
+        "category": "testing"
+      },
+      {
+        "text": "TanStack Query",
+        "weight": 2,
+        "category": "frontend"
+      },
+      {
+        "text": "Recharts",
+        "weight": 1,
+        "category": "frontend"
+      },
+      {
+        "text": "CRDT",
+        "weight": 2,
+        "category": "sync"
+      },
+      {
+        "text": "Whatsapp Business",
+        "weight": 2,
+        "category": "integration"
+      },
+      {
+        "text": "Infobip",
+        "weight": 2,
+        "category": "integration"
+      }
+    ],
+    "architectures": [
+      {
+        "text": "Microservices",
+        "weight": 10
+      },
+      {
+        "text": "Domain-Driven Design (DDD)",
+        "weight": 9
+      },
+      {
+        "text": "Event Driven Architecture",
+        "weight": 9
+      },
+      {
+        "text": "Clean Architecture",
+        "weight": 4
+      },
+      {
+        "text": "Hexagonal Architecture",
+        "weight": 3
+      },
+      {
+        "text": "Caching",
+        "weight": 6
+      },
+      {
+        "text": "Sagas",
+        "weight": 4
+      },
+      {
+        "text": "CQRS",
+        "weight": 3
+      },
+      {
+        "text": "Reactive Programming",
+        "weight": 4
+      },
+      {
+        "text": "Serverless",
+        "weight": 3
+      },
+      {
+        "text": "State Machines (ASL)",
+        "weight": 2
+      },
+      {
+        "text": "RAG",
+        "weight": 3
+      },
+      {
+        "text": "Router-Solver",
+        "weight": 1
+      },
+      {
+        "text": "Circuit Breaker",
+        "weight": 1
+      },
+      {
+        "text": "Fail-Fast",
+        "weight": 1
+      },
+      {
+        "text": "Repository Pattern",
+        "weight": 5
+      },
+      {
+        "text": "Use Case Pattern",
+        "weight": 4
+      },
+      {
+        "text": "Atomic Design",
+        "weight": 2
+      },
+      {
+        "text": "Modulith",
+        "weight": 3
+      },
+      {
+        "text": "Backend for Frontend",
+        "weight": 3
+      },
+      {
+        "text": "Microfrontends",
+        "weight": 2
+      },
+      {
+        "text": "REST API",
+        "weight": 3
+      },
+      {
+        "text": "Offline-first",
+        "weight": 1
+      },
+      {
+        "text": "CRDT-based Synchronization",
+        "weight": 1
+      },
+      {
+        "text": "RBAC",
+        "weight": 1
+      },
+      {
+        "text": "Encryption Layer (RSA/AES)",
+        "weight": 1
+      },
+      {
+        "text": "Event Sourcing",
+        "weight": 2
+      },
+      {
+        "text": "Aspect Oriented Programming",
+        "weight": 1
+      },
+      {
+        "text": "Modular Frontend",
+        "weight": 1
+      },
+      {
+        "text": "Real-Time Communication",
+        "weight": 1
+      },
+      {
+        "text": "Container-Ready",
+        "weight": 1
+      },
+      {
+        "text": "Least-Privilege IAM",
+        "weight": 1
+      },
+      {
+        "text": "Spec-Driven Development (SDD)",
+        "weight": 1
+      }
+    ],
+    "industries": [
+      {
+        "text": "Traditional banking",
+        "weight": 3
+      },
+      {
+        "text": "Insurance",
+        "weight": 2
+      },
+      {
+        "text": "Logistics",
+        "weight": 2
+      },
+      {
+        "text": "International Trade",
+        "weight": 1
+      },
+      {
+        "text": "Financial Services",
+        "weight": 2
+      },
+      {
+        "text": "Commodities Exchange",
+        "weight": 1
+      },
+      {
+        "text": "Public Procurement",
+        "weight": 1
+      },
+      {
+        "text": "Manufacturing",
+        "weight": 1
+      },
+      {
+        "text": "Construction",
+        "weight": 1
+      },
+      {
+        "text": "Home Goods",
+        "weight": 1
+      },
+      {
+        "text": "Software",
+        "weight": 2
+      },
+      {
+        "text": "Consultancy",
+        "weight": 2
+      },
+      {
+        "text": "Artificial Intelligence",
+        "weight": 3
+      }
+    ],
+    "featureCategories": [
+      {
+        "text": "automation",
+        "weight": 20
+      },
+      {
+        "text": "ux",
+        "weight": 22
+      },
+      {
+        "text": "analytics",
+        "weight": 9
+      },
+      {
+        "text": "security",
+        "weight": 7
+      },
+      {
+        "text": "backend",
+        "weight": 6
+      },
+      {
+        "text": "integration",
+        "weight": 8
+      },
+      {
+        "text": "performance",
+        "weight": 4
+      },
+      {
+        "text": "financing",
+        "weight": 2
+      },
+      {
+        "text": "cross_sell",
+        "weight": 1
+      },
+      {
+        "text": "payments",
+        "weight": 1
+      },
+      {
+        "text": "transfers",
+        "weight": 1
+      },
+      {
+        "text": "account_management",
+        "weight": 3
+      },
+      {
+        "text": "conversational_ai",
+        "weight": 2
+      },
+      {
+        "text": "session_management",
+        "weight": 1
+      },
+      {
+        "text": "document_delivery",
+        "weight": 1
+      },
+      {
+        "text": "reliability",
+        "weight": 2
+      },
+      {
+        "text": "cost_optimization",
+        "weight": 1
+      },
+      {
+        "text": "insights",
+        "weight": 2
+      },
+      {
+        "text": "alerts",
+        "weight": 1
+      },
+      {
+        "text": "observability",
+        "weight": 2
+      },
+      {
+        "text": "cash_access",
+        "weight": 1
+      },
+      {
+        "text": "authentication",
+        "weight": 1
+      },
+      {
+        "text": "benefits",
+        "weight": 1
+      },
+      {
+        "text": "user_experience",
+        "weight": 1
+      }
+    ]
+  },
+  "chartData": {
+    "experienceDurationMonths": [
+      {
+        "experience": "Firplak",
+        "months": 26
+      },
+      {
+        "experience": "Sofka Technologies",
+        "months": 27
+      },
+      {
+        "experience": "BMC (Sofka)",
+        "months": 11
+      },
+      {
+        "experience": "L.O. Trading (Sofka)",
+        "months": 8
+      },
+      {
+        "experience": "SURA México (Sofka)",
+        "months": 6
+      },
+      {
+        "experience": "Diners Club (Sofka)",
+        "months": 10
+      },
+      {
+        "experience": "Zanacode",
+        "months": 10
+      }
+    ],
+    "beforeAfter": {
+      "apiResponseTimeSec": {
+        "context": {
+          "es": "APIs SOFTLOT (Medición en s)",
+          "en": "SOFTLOT APIs (Measured in s)"
+        },
+        "before": 2.5,
+        "after": 0.8,
+        "unit": {
+          "es": " s",
+          "en": " s"
+        },
+        "improvementX": 3
+      },
+      "projectTimelineMonths": {
+        "context": {
+          "es": "Entrega SOFTLOT (Medición en meses)",
+          "en": "SOFTLOT Delivery (Measured in months)"
+        },
+        "before": 10,
+        "after": 5,
+        "unit": {
+          "es": " meses",
+          "en": " months"
+        },
+        "reductionPercent": 50
+      },
+      "reportGenerationSec": {
+        "context": {
+          "es": "Reportes SURA México (Medición en s)",
+          "en": "SURA México Reports (Measured in s)"
+        },
+        "before": 30,
+        "after": 15,
+        "unit": {
+          "es": " s",
+          "en": " s"
+        },
+        "throughputMultiplierX": 2
+      },
+      "aiMaturitySuramx": {
+        "context": {
+          "es": "Madurez IA SURA (Escala 1.0–5.0)",
+          "en": "SURA AI Maturity (1.0–5.0 scale)"
+        },
+        "before": 2.3,
+        "after": 3.17,
+        "scale": 5,
+        "unit": {
+          "es": " pts",
+          "en": " pts"
+        },
+        "delta": 0.87
+      },
+      "aiMaturityDiners": {
+        "context": {
+          "es": "Madurez IA Diners (Escala 1.0–5.0)",
+          "en": "Diners AI Maturity (1.0–5.0 scale)"
+        },
+        "before": 3.87,
+        "after": 4.02,
+        "scale": 5,
+        "unit": {
+          "es": " pts",
+          "en": " pts"
+        },
+        "delta": 0.15
+      }
+    },
+    "industryMix": [
+      {
+        "industry": {
+          "es": "Banca / Servicios Financieros",
+          "en": "Banking / Financial Services"
+        },
+        "engagements": 3
+      },
+      {
+        "industry": {
+          "es": "Seguros",
+          "en": "Insurance"
+        },
+        "engagements": 1
+      },
+      {
+        "industry": {
+          "es": "Logística / Comercio Internacional",
+          "en": "Logistics / International Trade"
+        },
+        "engagements": 1
+      },
+      {
+        "industry": {
+          "es": "Manufactura / Construcción",
+          "en": "Manufacturing / Construction"
+        },
+        "engagements": 1
+      },
+      {
+        "industry": {
+          "es": "IA / Consultoría de Software",
+          "en": "AI / Software Consultancy"
+        },
+        "engagements": 2
+      }
+    ],
+    "roleDistribution": [
+      {
+        "role": "Fullstack Developer",
+        "count": 3
+      },
+      {
+        "role": "Backend Developer",
+        "count": 2
+      },
+      {
+        "role": "Mobile Developer",
+        "count": 1
+      },
+      {
+        "role": "Development Consultant",
+        "count": 1
+      },
+      {
+        "role": "Founding Engineer",
+        "count": 1
+      }
+    ],
+    "projectsPerExperience": [
+      {
+        "experience": "bmc",
+        "count": 1
+      },
+      {
+        "experience": "dinersclub",
+        "count": 2
+      },
+      {
+        "experience": "firplak",
+        "count": 3
+      },
+      {
+        "experience": "lotrading",
+        "count": 1
+      },
+      {
+        "experience": "sofka",
+        "count": 3
+      },
+      {
+        "experience": "suramx",
+        "count": 1
+      },
+      {
+        "experience": "zanacode",
+        "count": 1
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "kind": "impact",
+      "title": {
+        "es": "250.000+ usuarios bancarios atendidos",
+        "en": "250,000+ banking users served"
+      },
+      "subtitle": "Blu App 2.0: Diners Club Ecuador",
+      "value": "250k+",
+      "context": "React Native + Java Spring Boot, deployed to App Store & Google Play.",
+      "numericValue": 250000,
+      "unit": {
+        "es": "usuarios",
+        "en": "users"
+      },
+      "displayValue": "250k",
+      "formatHint": "compact",
+      "suffix": "+",
+      "color": "accent1"
+    },
+    {
+      "kind": "throughput",
+      "title": {
+        "es": "100.000 cotizaciones procesadas al mes",
+        "en": "100,000 quotations processed monthly"
+      },
+      "subtitle": "Mobile Fleet Quoter: SURA México",
+      "value": "100k",
+      "context": "Reactive Java 17 microservices scaling to 3,000 vehicles per fleet request.",
+      "numericValue": 100000,
+      "unit": {
+        "es": "cotizaciones/mes",
+        "en": "quotations/month"
+      },
+      "displayValue": "100k",
+      "formatHint": "compact"
+    },
+    {
+      "kind": "performance",
+      "title": {
+        "es": "Mejora de 3× en tiempo de respuesta de API",
+        "en": "3× API response time improvement"
+      },
+      "subtitle": "SOFTLOT: L.O. Trading",
+      "value": "3×",
+      "context": "Reactive backend on Java 21, Spring WebFlux, R2DBC.",
+      "numericValue": 3,
+      "unit": {
+        "es": "más rápido",
+        "en": "faster"
+      },
+      "displayValue": "3×",
+      "formatHint": "multiplier"
+    },
+    {
+      "kind": "delivery",
+      "title": {
+        "es": "Sistema SOFTLOT entregado 5 meses antes de lo programado",
+        "en": "SOFTLOT system delivered 5 months ahead of schedule"
+      },
+      "subtitle": "SOFTLOT: L.O. Trading",
+      "value": "5",
+      "context": "From a 10-month plan to a 5-month go-live after a failed initial launch.",
+      "numericValue": 5,
+      "unit": {
+        "es": "meses antes",
+        "en": "months ahead of schedule"
+      },
+      "displayValue": "5",
+      "formatHint": "integer"
+    },
+    {
+      "kind": "productivity",
+      "title": {
+        "es": "80% de reducción de esfuerzo en pruebas y migración",
+        "en": "80% effort reduction on testing & migration"
+      },
+      "subtitle": "GitHub Copilot integration: L.O. Trading",
+      "value": "-80%",
+      "context": "Legacy business logic recovery for the rebuild from scratch.",
+      "numericValue": 80,
+      "unit": {
+        "es": "reducción de esfuerzo",
+        "en": "% effort reduction"
+      },
+      "displayValue": "-80%",
+      "formatHint": "percent"
+    },
+    {
+      "kind": "quality",
+      "title": {
+        "es": "100% cobertura de pruebas en rutas críticas",
+        "en": "100% test coverage on critical paths"
+      },
+      "subtitle": "SURA México & L.O. Trading",
+      "value": "100%",
+      "context": "Unit + JMeter load-test coverage on mission-critical services.",
+      "numericValue": 100,
+      "unit": {
+        "es": "cobertura",
+        "en": "% coverage"
+      },
+      "displayValue": "100%",
+      "formatHint": "percent"
+    },
+    {
+      "kind": "efficiency",
+      "title": {
+        "es": "+22.41% eficiencia en creación de casos de prueba",
+        "en": "+22.41% test-case creation efficiency"
+      },
+      "subtitle": "SURA México AI adoption",
+      "value": "+22.41%",
+      "context": "Copilot + SKAI adoption across a 15-person cross-functional team.",
+      "numericValue": 22.41,
+      "unit": {
+        "es": "ganancia de eficiencia",
+        "en": "% efficiency gain"
+      },
+      "displayValue": "+22.41%",
+      "formatHint": "percent-decimal"
+    },
+    {
+      "kind": "efficiency",
+      "title": {
+        "es": "-40% tiempo de definición de historias de usuario",
+        "en": "-40% user story definition time"
+      },
+      "subtitle": "SURA México AI adoption",
+      "value": "-40%",
+      "context": "SKAI + Copilot workflows for backlog authoring.",
+      "numericValue": 40,
+      "unit": {
+        "es": "reducción de tiempo",
+        "en": "% time reduction"
+      },
+      "displayValue": "-40%",
+      "formatHint": "percent"
+    },
+    {
+      "kind": "aiMaturity",
+      "title": {
+        "es": "Madurez IA de 2.3 a 3.17 (SURA)",
+        "en": "AI maturity from 2.3 to 3.17 (SURA)"
+      },
+      "subtitle": "Team-wide AI enablement",
+      "value": "+0.87 / 5",
+      "context": "15-person cross-functional team over the engagement.",
+      "numericValue": 0.87,
+      "unit": {
+        "es": "/ 5 aumento",
+        "en": "/ 5 uplift"
+      },
+      "displayValue": "+0.87 / 5",
+      "formatHint": "decimal"
+    },
+    {
+      "kind": "aiMaturity",
+      "title": {
+        "es": "Madurez IA de 3.87 a 4.02 (Diners AI Center)",
+        "en": "AI maturity from 3.87 to 4.02 (Diners AI Center)"
+      },
+      "subtitle": "24 developers trained on GitHub Copilot",
+      "value": "+0.15 / 5",
+      "context": "AI Center enablement program.",
+      "numericValue": 0.15,
+      "unit": {
+        "es": "/ 5 aumento",
+        "en": "/ 5 uplift"
+      },
+      "displayValue": "+0.15 / 5",
+      "formatHint": "decimal"
+    },
+    {
+      "kind": "savings",
+      "title": {
+        "es": "30+ horas ahorradas por semana",
+        "en": "30+ hours saved per week"
+      },
+      "subtitle": "Supply chain automation: Firplak",
+      "value": "≈1,560 h/year",
+      "context": "SAP B1 + Microsoft 365 + Power Platform automations.",
+      "numericValue": 1560,
+      "unit": {
+        "es": "horas/año",
+        "en": "hours/year"
+      },
+      "displayValue": "≈1,560 h/year",
+      "formatHint": "integer"
+    },
+    {
+      "kind": "throughput",
+      "title": {
+        "es": "2× capacidad de generación de reportes",
+        "en": "2× report generation throughput"
+      },
+      "subtitle": "SURA México reporting pipeline",
+      "value": "2×",
+      "context": "Blocking calls (up to 30s, 5-min timeouts) replaced with message-driven, non-blocking pipeline.",
+      "numericValue": 2,
+      "unit": {
+        "es": "capacidad",
+        "en": "throughput"
+      },
+      "displayValue": "2×",
+      "formatHint": "multiplier"
+    },
+    {
+      "kind": "scale",
+      "title": {
+        "es": "60+ pantallas modulares entregadas",
+        "en": "60+ modular screens delivered"
+      },
+      "subtitle": "SOFTLOT UI: L.O. Trading",
+      "value": "60+",
+      "context": "Atomic Design standards across the platform.",
+      "numericValue": 60,
+      "unit": {
+        "es": "pantallas",
+        "en": "screens"
+      },
+      "displayValue": "60+",
+      "formatHint": "integer"
+    },
+    {
+      "kind": "legacy",
+      "title": {
+        "es": "18 años de lógica de negocio legacy modernizada",
+        "en": "18 years of legacy business logic modernized"
+      },
+      "subtitle": "SOFTLOT: L.O. Trading",
+      "value": "18 years",
+      "context": "Preserved per-client customization and regulatory compliance during rebuild.",
+      "numericValue": 18,
+      "unit": {
+        "es": "años",
+        "en": "years"
+      },
+      "displayValue": "18 years",
+      "formatHint": "integer"
+    }
+  ],
+  "narrative": [
+    {
+      "act": 1,
+      "id": "hook",
+      "section": "01-Hook",
+      "title": {
+        "en": "5 years. 7 companies. 250K+ users impacted.",
+        "es": "5 años. 7 empresas. 250K+ usuarios impactados."
+      },
+      "subtitle": {
+        "en": "A story of measurable engineering impact.",
+        "es": "Una historia de impacto medible en ingeniería."
+      },
+      "body": {
+        "en": "From supply-chain automations that gave back 1,560 hours a year, to reactive backends that cut API times threefold, to AI enablement that lifted whole teams' maturity, a track record built on numbers, not adjectives.",
+        "es": "Desde automatizaciones de cadena de suministro que devolvieron 1.560 horas al año, hasta backends reactivos que redujeron tres veces los tiempos de API, y programas de IA que elevaron la madurez de equipos completos, una trayectoria de números, no adjetivos."
+      },
+      "visualizations": [
+        "counters:hero",
+        "geoMap"
+      ],
+      "dataRefs": [
+        "highlights[0..4]",
+        "metrics.aggregates",
+        "experiences[*].clientLocation"
+      ]
+    },
+    {
+      "act": 2,
+      "id": "origin",
+      "section": "02-Timeline",
+      "title": {
+        "en": "A profile forged with intent",
+        "es": "Un perfil forjado con intención"
+      },
+      "subtitle": {
+        "en": "Pursuing Software Engineering at Politécnico Grancolombiano and Mobile Development at ITM, with five years of production practice across seven companies and four regulated industries, backed by continuous certification in cloud, banking, security, and AI.",
+        "es": "Cursando Ingeniería de Software en el Politécnico Grancolombiano y Desarrollo Móvil en el ITM, con cinco años de práctica en producción en siete empresas y cuatro industrias reguladas, respaldados por certificación continua en cloud, banca, seguridad e IA."
+      },
+      "body": {
+        "en": "Behind every metric there is a talent shaped by rigorous formation, deliberate practice, and exposure to demanding production environments. Depth built stack by stack, judgment sharpened under real load, and a formative discipline that turns each engagement into a step-change. The chronology below is the evidence of that trajectory.",
+        "es": "Detrás de cada métrica hay un talento moldeado por formación rigurosa, práctica deliberada y exposición a entornos productivos exigentes. Profundidad construida stack por stack, criterio afilado bajo carga real y una disciplina formativa que convierte cada engagement en un salto de nivel. La cronología a continuación es la evidencia de esa trayectoria."
+      },
+      "visualizations": [
+        "timelineGantt"
+      ],
+      "dataRefs": [
+        "timeline.work",
+        "timeline.education",
+        "timeline.certifications"
+      ]
+    },
+    {
+      "act": 3,
+      "id": "foundations",
+      "section": "03-Foundations",
+      "title": {
+        "en": "Foundations: automation as return",
+        "es": "Cimientos: la automatización como retorno"
+      },
+      "subtitle": {
+        "en": "Firplak, where the pattern began.",
+        "es": "Firplak, donde empezó el patrón."
+      },
+      "body": {
+        "en": "At Firplak, connected SAP Business One with Microsoft 365 and Power Platform through fpkjobs, FPKSapConnector, and Trackpod, cutting 30 hours a week of manual supply-chain work. Roughly 1,560 hours a year given back to operations. This is where measurable engineering became the personal north star.",
+        "es": "En Firplak conecté SAP Business One con Microsoft 365 y Power Platform mediante fpkjobs, FPKSapConnector y Trackpod, recortando 30 horas semanales de trabajo manual en la cadena de suministro. Cerca de 1.560 horas al año devueltas a operaciones. Aquí la ingeniería medible se volvió el norte personal."
+      },
+      "visualizations": [
+        "counter:hoursSaved",
+        "stackedFeatures:firplakProjects"
+      ],
+      "dataRefs": [
+        "experiences[id=firplak]",
+        "projects[experienceId=firplak]",
+        "highlights[kind=savings]"
+      ]
+    },
+    {
+      "act": 4,
+      "id": "consultancy",
+      "section": "04-Consultancy",
+      "title": {
+        "en": "The consultancy era",
+        "es": "La era de consultoría"
+      },
+      "subtitle": {
+        "en": "Two years at Sofka. Four parallel worlds.",
+        "es": "Dos años en Sofka. Cuatro mundos en paralelo."
+      },
+      "body": {
+        "en": "As a Development Consultant at Sofka Technologies, ran four parallel client engagements across banking (BMC, Diners Club), insurance (SURA México), and logistics (L.O. Trading), plus internal AI accelerators. Every engagement ended with production-ready systems and a lifted team.",
+        "es": "Como Consultor de Desarrollo en Sofka Technologies, corrí cuatro engagements paralelos en banca (BMC, Diners Club), seguros (SURA México) y logística (L.O. Trading), sumando aceleradores internos de IA. Cada uno terminó con sistemas listos para producción y un equipo elevado."
+      },
+      "visualizations": [],
+      "dataRefs": [
+        "chartData.industryMix"
+      ]
+    },
+    {
+      "act": 5,
+      "id": "signature-lotrading",
+      "section": "05a-Signature-LOT",
+      "title": {
+        "en": "Signature act 1: Rescuing a failed launch",
+        "es": "Acto signature 1: Rescatando un lanzamiento fallido"
+      },
+      "subtitle": {
+        "en": "L.O. Trading · SOFTLOT · 3× faster APIs · 50% shorter timeline.",
+        "es": "L.O. Trading · SOFTLOT · APIs 3× más rápidas · 50% menos cronograma."
+      },
+      "body": {
+        "en": "SOFTLOT had failed its first go-live. Rebuilt on Java 21, Spring WebFlux, Project Reactor, and R2DBC, APIs dropped from 2–3 seconds to under one, 100% test coverage held on critical paths, and delivery landed five months ahead of a ten-month plan. GitHub Copilot in the loop cut testing and legacy migration effort by 80%.",
+        "es": "SOFTLOT había fallado su primer go-live. Reconstruido sobre Java 21, Spring WebFlux, Project Reactor y R2DBC, las APIs bajaron de 2–3 segundos a menos de uno, se sostuvo 100% de cobertura en rutas críticas, y la entrega aterrizó cinco meses antes de un plan de diez. GitHub Copilot en el flujo redujo el esfuerzo de testing y migración legacy en 80%."
+      },
+      "visualizations": [
+        "slope:apiResponseTime",
+        "slope:projectTimeline",
+        "counter:effortReduction"
+      ],
+      "dataRefs": [
+        "chartData.beforeAfter.apiResponseTimeSec",
+        "chartData.beforeAfter.projectTimelineMonths",
+        "experiences[id=lotrading].metrics"
+      ]
+    },
+    {
+      "act": 6,
+      "id": "signature-suramx",
+      "section": "05b-Signature-SURA",
+      "title": {
+        "en": "Signature act 2: Async at insurance scale",
+        "es": "Acto signature 2: Asíncrono a escala aseguradora"
+      },
+      "subtitle": {
+        "en": "SURA México · 100K/mo · 2× throughput · AI maturity from 2.3 to 3.17.",
+        "es": "SURA México · 100K/mes · 2× throughput · madurez IA de 2.3 a 3.17."
+      },
+      "body": {
+        "en": "The Mobile Fleet Quoter scales to 3,000 vehicles per fleet request and 100,000 quotations a month on Spring WebFlux and Azure Service Bus. The reporting pipeline was rebuilt from blocking 30-second calls (5-minute hard timeouts) into an async, message-driven flow, doubling throughput and eliminating timeout failures. AI adoption lifted the team's maturity from 2.3 to 3.17 on a 5-point scale.",
+        "es": "El Cotizador Móvil de Flotas escala a 3.000 vehículos por solicitud y 100.000 cotizaciones al mes sobre Spring WebFlux y Azure Service Bus. El pipeline de reportes pasó de llamadas bloqueantes de 30 segundos (con timeouts duros de 5 minutos) a un flujo asíncrono orientado a mensajes, duplicando el throughput y eliminando fallas por timeout. La adopción de IA elevó la madurez del equipo de 2.3 a 3.17 sobre 5."
+      },
+      "visualizations": [
+        "counter:quotationsPerMonth",
+        "slope:reportGeneration",
+        "slope:aiMaturitySuramx"
+      ],
+      "dataRefs": [
+        "chartData.beforeAfter.reportGenerationSec",
+        "chartData.beforeAfter.aiMaturitySuramx",
+        "experiences[id=suramx].metrics"
+      ]
+    },
+    {
+      "act": 7,
+      "id": "signature-diners",
+      "section": "05c-Signature-Diners",
+      "title": {
+        "en": "Signature act 3: Banking for 250,000 users",
+        "es": "Acto signature 3: Banca para 250.000 usuarios"
+      },
+      "subtitle": {
+        "en": "Diners Club Ecuador · Blu App 2.0 · WhatsApp banking on AWS · AI maturity from 3.87 to 4.02.",
+        "es": "Diners Club Ecuador · Blu App 2.0 · Banca WhatsApp sobre AWS · madurez IA de 3.87 a 4.02."
+      },
+      "body": {
+        "en": "Blu App 2.0 serves 250,000+ cardholders on iOS and Android, cash advance and ATM features in React Native, hardened with RSA/AES, OAuth, and soft tokens. In parallel, migrated the WhatsApp conversational banking orchestration from n8n to serverless AWS Step Functions + DynamoDB + Bedrock (Claude 3.5 Sonnet / Haiku / Titan) + Weaviate RAG. Trained 24 developers at the AI Center, lifting maturity from 3.87 to 4.02.",
+        "es": "Blu App 2.0 atiende a 250.000+ tarjetahabientes en iOS y Android, funciones de avance en efectivo y cajero en React Native, endurecidas con RSA/AES, OAuth y soft tokens. En paralelo, migré la orquestación de banca conversacional por WhatsApp desde n8n a AWS Step Functions + DynamoDB + Bedrock (Claude 3.5 Sonnet / Haiku / Titan) + Weaviate RAG serverless. Capacité 24 desarrolladores en el AI Center, elevando la madurez de 3.87 a 4.02."
+      },
+      "visualizations": [
+        "counter:usersServed",
+        "wordCloud:bankingStack",
+        "slope:aiMaturityDiners"
+      ],
+      "dataRefs": [
+        "experiences[id=dinersclub]",
+        "projects[id=blu_app_2]",
+        "projects[id=bot]",
+        "chartData.beforeAfter.aiMaturityDiners"
+      ]
+    },
+    {
+      "act": 8,
+      "id": "ai-thread",
+      "section": "06-AIThread",
+      "title": {
+        "en": "The AI thread",
+        "es": "El hilo de IA"
+      },
+      "subtitle": {
+        "en": "AI in production, in front of real users, with observability.",
+        "es": "IA en producción, frente a usuarios reales, con observabilidad."
+      },
+      "body": {
+        "en": "SkAI and Iris, multi-stage AI agents on Python, LangGraph, Gemini SDK, Neo4j, and OpenTelemetry, accelerated the full SDLC across Sofka. The Operational/Commercial Dashboard on Anthropic API translated raw pipeline data into prescriptive insights for sales leadership. AI wasn't a demo; it was in production, observable, and measurably lifted teams.",
+        "es": "SkAI e Iris, agentes de IA multi-etapa sobre Python, LangGraph, Gemini SDK, Neo4j y OpenTelemetry, aceleraron el SDLC completo en Sofka. El Dashboard Operacional/Comercial sobre Anthropic API tradujo datos crudos del pipeline en insights prescriptivos para el liderazgo comercial. La IA no fue un demo; estuvo en producción, observable, y elevó equipos de forma medible."
+      },
+      "visualizations": [
+        "slope:aiMaturityBoth",
+        "stackedFeatures:aiProjects"
+      ],
+      "dataRefs": [
+        "metrics.aiMaturityShifts",
+        "projects[id in (skai,iris,bot,operational_commercial_dashboard)]"
+      ]
+    },
+    {
+      "act": 9,
+      "id": "arsenal",
+      "section": "07-Arsenal",
+      "title": {
+        "en": "The technical arsenal",
+        "es": "El arsenal técnico"
+      },
+      "subtitle": {
+        "en": "7 languages · 136 technologies · 57 architectural patterns · 14 certifications.",
+        "es": "7 lenguajes · 136 tecnologías · 57 patrones de arquitectura · 14 certificaciones."
+      },
+      "body": {
+        "en": "Java (17, 21), TypeScript, Python, C#, JavaScript, SQL, Dart at the core. Certifications across cloud (AWS AI Practitioner, Google Cloud, Duke Cloud), banking (Mambu I/II, 2innovate), security (Cisco, Sofka Desarrollo Seguro), AI (UdeA Bootcamp Agéntico), and systems (Red Hat).",
+        "es": "Java (17, 21), TypeScript, Python, C#, JavaScript, SQL, Dart al centro. Certificaciones en cloud (AWS AI Practitioner, Google Cloud, Duke Cloud), banca (Mambu I/II, 2innovate), seguridad (Cisco, Sofka Desarrollo Seguro), IA (Bootcamp Agéntico UdeA) y sistemas (Red Hat)."
+      },
+      "visualizations": [
+        "wordCloud:technologiesAll",
+        "timeline:certifications"
+      ],
+      "dataRefs": [
+        "keywordClouds.technologies",
+        "cv.certifications",
+        "cv.skills"
+      ]
+    },
+    {
+      "act": 10,
+      "id": "present-cta",
+      "section": "08-Present",
+      "title": {
+        "en": "The present chapter",
+        "es": "El capítulo actual"
+      },
+      "subtitle": {
+        "en": "Founding Engineer at templ8r.co. Available for high-impact work.",
+        "es": "Founding Engineer en templ8r.co. Disponible para trabajo de alto impacto."
+      },
+      "body": {
+        "en": "Currently building core platform capabilities from scratch at templ8r.co. Open to conversations on senior engineering, AI enablement, or founding roles. Reach out by email, LinkedIn, or book a meeting directly.",
+        "es": "Actualmente construyendo capacidades core de plataforma desde cero en templ8r.co. Abierto a conversaciones sobre ingeniería senior, habilitación de IA, o roles de founding. Contáctame por email, LinkedIn, o agenda una reunión directamente."
+      },
+      "visualizations": [
+        "contactCard"
+      ],
+      "dataRefs": [
+        "profile.contact",
+        "cv.workExperience[id=templ8r]"
+      ]
+    }
+  ]
+}
