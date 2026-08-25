@@ -1955,7 +1955,10 @@
       {
         "id": "firplak",
         "type": "work",
-        "label": "Firplak S.A: Fullstack Developer",
+        "label": {
+          "en": "Firplak S.A: Fullstack Developer",
+          "es": "Firplak S.A: Desarrollador Fullstack"
+        },
         "start": "2021-11",
         "end": "2023-12",
         "durationMonths": 26
@@ -1963,7 +1966,10 @@
       {
         "id": "zanacode",
         "type": "work",
-        "label": "Zanacode: Mobile Developer",
+        "label": {
+          "en": "Zanacode: Mobile Developer",
+          "es": "Zanacode: Desarrollador Móvil"
+        },
         "start": "2023-02",
         "end": "2023-11",
         "durationMonths": 10
@@ -1971,7 +1977,10 @@
       {
         "id": "sofka",
         "type": "work",
-        "label": "Sofka Technologies: Development Consultant",
+        "label": {
+          "en": "Sofka Technologies: Development Consultant",
+          "es": "Sofka Technologies: Consultor de Desarrollo"
+        },
         "start": "2024-02",
         "end": "2026-04",
         "durationMonths": 27
@@ -1979,7 +1988,10 @@
       {
         "id": "bmc",
         "type": "work-consultancy",
-        "label": "BMC: Fullstack (Consultant)",
+        "label": {
+          "en": "BMC: Fullstack (Consultant)",
+          "es": "BMC: Fullstack (Consultor)"
+        },
         "start": "2024-02",
         "end": "2024-12",
         "durationMonths": 11,
@@ -1988,7 +2000,10 @@
       {
         "id": "lotrading",
         "type": "work-consultancy",
-        "label": "L.O. Trading: Backend (Consultant)",
+        "label": {
+          "en": "L.O. Trading: Backend (Consultant)",
+          "es": "L.O. Trading: Backend (Consultor)"
+        },
         "start": "2024-05",
         "end": "2024-12",
         "durationMonths": 8,
@@ -1997,7 +2012,10 @@
       {
         "id": "suramx",
         "type": "work-consultancy",
-        "label": "SURA México: Backend (Consultant)",
+        "label": {
+          "en": "SURA México: Backend (Consultant)",
+          "es": "SURA México: Backend (Consultor)"
+        },
         "start": "2024-12",
         "end": "2025-05",
         "durationMonths": 6,
@@ -2006,7 +2024,10 @@
       {
         "id": "dinersclub",
         "type": "work-consultancy",
-        "label": "Diners Club Ecuador: Fullstack (Consultant)",
+        "label": {
+          "en": "Diners Club Ecuador: Fullstack (Consultant)",
+          "es": "Diners Club Ecuador: Fullstack (Consultor)"
+        },
         "start": "2025-05",
         "end": "2026-02",
         "durationMonths": 10,
@@ -2015,7 +2036,10 @@
       {
         "id": "templ8r",
         "type": "work",
-        "label": "templ8r.co: Founding Engineer",
+        "label": {
+          "en": "templ8r.co: Founding Engineer",
+          "es": "templ8r.co: Ingeniero Fundador"
+        },
         "start": "2026-04",
         "end": null,
         "durationMonths": null
@@ -2024,19 +2048,37 @@
     "education": [
       {
         "type": "education",
-        "label": "SENA: Computer Maintenance Technician",
+        "label": {
+          "en": "SENA: Computer Maintenance Technician",
+          "es": "SENA: Técnico en Mantenimiento de Computadores"
+        },
         "start": "2019-04",
         "end": "2020-04"
       },
       {
         "type": "education",
-        "label": "Universidad Nacional: Systems & Computer Engineering",
+        "label": {
+          "en": "Universidad Nacional: Systems & Computer Engineering",
+          "es": "Universidad Nacional: Ingeniería de Sistemas y Computación"
+        },
         "start": "2021-01",
         "end": "2025-12"
       },
       {
         "type": "education",
-        "label": "ITM: Mobile Application Development Technology",
+        "label": {
+          "en": "Politécnico Grancolombiano: Software Engineering",
+          "es": "Politécnico Grancolombiano: Ingeniería de Software"
+        },
+        "start": "2026-01",
+        "end": null
+      },
+      {
+        "type": "education",
+        "label": {
+          "en": "ITM: Mobile Application Development Technology",
+          "es": "ITM: Tecnología en Desarrollo de Aplicaciones Móviles"
+        },
         "start": "2026-01",
         "end": null
       }
@@ -2044,72 +2086,114 @@
     "certifications": [
       {
         "type": "certification",
-        "label": "ILO: Diploma in Programming Skills",
+        "label": {
+          "en": "ILO: Diploma in Programming Skills",
+          "es": "ILO: Diplomado en Habilidades de Programación"
+        },
         "date": "2021-01"
       },
       {
         "type": "certification",
-        "label": "UNAL: Mobile Application Development Diploma",
+        "label": {
+          "en": "UNAL: Mobile Application Development Diploma",
+          "es": "UNAL: Diplomado en Desarrollo de Aplicaciones Móviles"
+        },
         "date": "2021-12"
       },
       {
         "type": "certification",
-        "label": "Red Hat: PE124 System Administration I",
+        "label": {
+          "en": "Red Hat: PE124 System Administration I",
+          "es": "Red Hat: PE124 Administración de Sistemas I"
+        },
         "date": "2022-02"
       },
       {
         "type": "certification",
-        "label": "Cisco: Introduction to Cybersecurity",
+        "label": {
+          "en": "Cisco: Introduction to Cybersecurity",
+          "es": "Cisco: Introducción a la Ciberseguridad"
+        },
         "date": "2022-03"
       },
       {
         "type": "certification",
-        "label": "EF SET: English C2 Proficient",
+        "label": {
+          "en": "EF SET: English C2 Proficient",
+          "es": "EF SET: Inglés C2 Competente"
+        },
         "date": "2022-04"
       },
       {
         "type": "certification",
-        "label": "Duke University: Cloud Computing Foundations",
+        "label": {
+          "en": "Duke University: Cloud Computing Foundations",
+          "es": "Duke University: Fundamentos de Cloud Computing"
+        },
         "date": "2022-07"
       },
       {
         "type": "certification",
-        "label": "Mambu: Solution Consultant I",
+        "label": {
+          "en": "Mambu: Solution Consultant I",
+          "es": "Mambu: Consultor de Soluciones I"
+        },
         "date": "2024-04"
       },
       {
         "type": "certification",
-        "label": "Mambu: Solution Consultant II",
+        "label": {
+          "en": "Mambu: Solution Consultant II",
+          "es": "Mambu: Consultor de Soluciones II"
+        },
         "date": "2024-04"
       },
       {
         "type": "certification",
-        "label": "2innovate: Configuración de Frame Banking",
+        "label": {
+          "en": "2innovate: Frame Banking Configuration",
+          "es": "2innovate: Configuración de Frame Banking"
+        },
         "date": "2024-05"
       },
       {
         "type": "certification",
-        "label": "AWS Academy: Cloud Foundations",
+        "label": {
+          "en": "AWS Academy: Cloud Foundations",
+          "es": "AWS Academy: Fundamentos de Cloud"
+        },
         "date": "2025-05"
       },
       {
         "type": "certification",
-        "label": "Google: Cloud Computing Foundations",
+        "label": {
+          "en": "Google: Cloud Computing Foundations",
+          "es": "Google: Fundamentos de Cloud Computing"
+        },
         "date": "2025-06"
       },
       {
         "type": "certification",
-        "label": "AWS: Certified AI Practitioner",
+        "label": {
+          "en": "AWS: Certified AI Practitioner",
+          "es": "AWS: Practicante Certificado en IA"
+        },
         "date": "2025-11"
       },
       {
         "type": "certification",
-        "label": "Sofka: Desarrollo Seguro",
+        "label": {
+          "en": "Sofka: Secure Development",
+          "es": "Sofka: Desarrollo Seguro"
+        },
         "date": "2026-01"
       },
       {
         "type": "certification",
-        "label": "UdeA: Bootcamp IA y Desarrollo Agéntico",
+        "label": {
+          "en": "UdeA: AI & Agentic Development Bootcamp",
+          "es": "UdeA: Bootcamp IA y Desarrollo Agéntico"
+        },
         "date": "2026-07"
       }
     ]
