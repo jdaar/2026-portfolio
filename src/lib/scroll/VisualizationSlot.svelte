@@ -196,6 +196,7 @@
 <style>
 	.slot {
 		width: 100%;
+		container-type: inline-size;
 	}
 	.counters-grid {
 		display: grid;
@@ -218,11 +219,18 @@
 	.pair {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 1rem;
+		gap: 0.75rem;
 	}
-	@media (min-width: 900px) {
+	@container (min-width: 460px) {
 		.pair {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.75rem;
 		}
+	}
+	.pair :global(.card) {
+		min-width: 0;
+	}
+	.pair :global(.chart-shell) {
+		height: 150px;
 	}
 </style>
