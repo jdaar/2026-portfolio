@@ -164,6 +164,7 @@
 		gap: 0.3rem 0.45rem;
 		padding: 0.2rem 0;
 		flex: 1;
+		min-width: 0;
 	}
 
 	.tag {
@@ -176,9 +177,8 @@
 			border-color 0.25s ease;
 		user-select: none;
 		max-width: 100%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
+		white-space: normal;
+		word-break: break-word;
 		display: inline-block;
 		vertical-align: middle;
 	}
