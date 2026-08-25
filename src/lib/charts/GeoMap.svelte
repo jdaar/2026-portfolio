@@ -154,7 +154,7 @@
 			controls.enableZoom = false;
 			controls.rotateSpeed = 0.6;
 			controls.autoRotate = true;
-			controls.autoRotateSpeed = 1.8;
+			controls.autoRotateSpeed = 0.45;
 			controls.target.set(0, 0, 0);
 
 			controls.addEventListener('start', () => {
