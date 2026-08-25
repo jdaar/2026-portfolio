@@ -1,11 +1,14 @@
 <script lang="ts">
 	import { lang } from '$lib/stores/lang';
 	import { theme } from '$lib/utils/theme';
+	import { t } from '$lib/utils/t';
+
+	type LocalizedLabel = string | { en?: string; es?: string };
 
 	interface WorkItem {
 		id?: string;
 		type: string;
-		label: string;
+		label: LocalizedLabel;
 		start: string;
 		end: string | null;
 		parent?: string;
@@ -13,15 +16,20 @@
 
 	interface EduItem {
 		type: string;
-		label: string;
+		label: LocalizedLabel;
 		start: string;
 		end: string | null;
 	}
 
 	interface CertItem {
 		type: string;
-		label: string;
+		label: LocalizedLabel;
 		date: string;
+	}
+
+	function resolveLabel(label: LocalizedLabel, currentLang: 'en' | 'es'): string {
+		if (typeof label === 'string') return label;
+		return t(label, currentLang);
 	}
 
 	let {
@@ -137,17 +145,18 @@
 					{@const layout = getWorkYAndHeight(item)}
 					{@const active = dateToX(item.start) <= activeX}
 					{@const fontSize = layout.isConsultancy ? 10 : 11}
-					{@const displayText = truncateLabel(item.label, width, fontSize)}
+					{@const label = resolveLabel(item.label, $lang)}
+					{@const displayText = truncateLabel(label, width, fontSize)}
 
 					<g
 						role="graphics-symbol"
-						aria-label={item.label}
+						aria-label={label}
 						class="gantt-item"
-						opacity={active ? (hoveredItem && hoveredItem !== item.label ? 0.3 : 1) : 0.2}
-						onmouseenter={() => (hoveredItem = item.label)}
+						opacity={active ? (hoveredItem && hoveredItem !== label ? 0.3 : 1) : 0.2}
+						onmouseenter={() => (hoveredItem = label)}
 						onmouseleave={() => (hoveredItem = null)}
 					>
-						<title>{item.label}</title>
+						<title>{label}</title>
 						<rect
 							x={startX}
 							y={layout.y}
@@ -181,19 +190,20 @@
 					{@const startX = (dateToX(item.start) / 100) * 1000}
 					{@const endX = (dateToX(item.end) / 100) * 1000}
 					{@const width = Math.max(12, endX - startX)}
-					{@const y = 170 + i * 24}
+					{@const y = 170 + i * 20}
 					{@const active = dateToX(item.start) <= activeX}
-					{@const displayText = truncateLabel(item.label, width, 10)}
+					{@const label = resolveLabel(item.label, $lang)}
+					{@const displayText = truncateLabel(label, width, 10)}
 
 					<g
 						role="graphics-symbol"
-						aria-label={item.label}
+						aria-label={label}
 						class="gantt-item"
-						opacity={active ? (hoveredItem && hoveredItem !== item.label ? 0.3 : 1) : 0.2}
-						onmouseenter={() => (hoveredItem = item.label)}
+						opacity={active ? (hoveredItem && hoveredItem !== label ? 0.3 : 1) : 0.2}
+						onmouseenter={() => (hoveredItem = label)}
 						onmouseleave={() => (hoveredItem = null)}
 					>
-						<title>{item.label}</title>
+						<title>{label}</title>
 						<rect x={startX} y={y} width={width} height="14" rx="4" fill={EDUCATION} opacity="0.85" />
 						{#if displayText}
 							<text x={startX + 6} y={y + 11} fill={INK} font-size="10" font-family="'Fredoka', sans-serif" font-weight="500" class="pointer-events-none">
@@ -209,13 +219,14 @@
 					{@const cx = (dateToX(cert.date) / 100) * 1000}
 					{@const cy = 270 + (i % 2) * 12}
 					{@const active = dateToX(cert.date) <= activeX}
+					{@const label = resolveLabel(cert.label, $lang)}
 
 					<g
 						role="graphics-symbol"
-						aria-label={cert.label}
+						aria-label={label}
 						class="gantt-item"
-						opacity={active ? (hoveredItem && hoveredItem !== cert.label ? 0.3 : 1) : 0.2}
-						onmouseenter={() => (hoveredItem = cert.label)}
+						opacity={active ? (hoveredItem && hoveredItem !== label ? 0.3 : 1) : 0.2}
+						onmouseenter={() => (hoveredItem = label)}
 						onmouseleave={() => (hoveredItem = null)}
 					>
 						<circle cx={cx} cy={cy} r="4" fill={CERT} />
@@ -230,16 +241,17 @@
 					{@const isRightHalf = cx > 500}
 					{@const textX = isRightHalf ? Math.max(10, cx - 10) : Math.min(990, cx + 10)}
 					{@const textAnchor = isRightHalf ? 'end' : 'start'}
+					{@const label = resolveLabel(cert.label, $lang)}
 
 					<g
 						role="graphics-symbol"
-						aria-label={cert.label}
+						aria-label={label}
 						class="gantt-item"
-						opacity={active ? (hoveredItem && hoveredItem !== cert.label ? 0.3 : 1) : 0.2}
-						onmouseenter={() => (hoveredItem = cert.label)}
+						opacity={active ? (hoveredItem && hoveredItem !== label ? 0.3 : 1) : 0.2}
+						onmouseenter={() => (hoveredItem = label)}
 						onmouseleave={() => (hoveredItem = null)}
 					>
-						<title>{cert.label} ({cert.date})</title>
+						<title>{label} ({cert.date})</title>
 						<line x1={cx} y1="35" x2={cx} y2={cy} stroke={CERT} stroke-width="1" opacity="0.3" stroke-dasharray="2 2" />
 						<circle cx={cx} cy={cy} r="4" fill={CERT} />
 						<text
@@ -251,7 +263,7 @@
 							font-family="'Fredoka', sans-serif"
 							font-weight="500"
 						>
-							{cert.label} ({cert.date})
+							{label} ({cert.date})
 						</text>
 					</g>
 				{/each}
