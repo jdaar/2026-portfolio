@@ -12,9 +12,14 @@
 		verified?: boolean;
 	}
 
+	interface CompanyRef {
+		name: string;
+		industries?: string[];
+	}
+
 	interface ExperienceItem {
 		id: string;
-		company: string;
+		company: string | CompanyRef;
 		role: string;
 		clientLocation?: Location;
 	}
@@ -30,6 +35,11 @@
 	const BASE = { lat: 6.2442, lng: -75.5812, city: 'Medellín', country: 'Colombia' };
 	const DEST_COLORS = ['#4aa1d8', theme.accent2, '#f4a261', '#c5da7f', '#e07a5f'];
 
+	function companyName(c: string | CompanyRef | undefined | null): string {
+		if (!c) return '';
+		return typeof c === 'string' ? c : c.name ?? '';
+	}
+
 	const withLocation = $derived(
 		experiences.filter((e): e is ExperienceItem & { clientLocation: Location } => !!e.clientLocation)
 	);
@@ -44,6 +54,23 @@
 			if (seen.has(key)) continue;
 			seen.set(key, { lat, lng, city, country, color: DEST_COLORS[idx % DEST_COLORS.length] });
 			idx++;
+		}
+		return Array.from(seen.values());
+	});
+
+	const fallbackLocations = $derived.by(() => {
+		const seen = new Map<string, { city: string; country: string; companies: string[] }>();
+		for (const e of withLocation) {
+			const { lat, lng, city, country } = e.clientLocation;
+			if (Math.abs(lat - BASE.lat) < 0.5 && Math.abs(lng - BASE.lng) < 0.5) continue;
+			const key = `${city}|${country}`;
+			const name = companyName(e.company);
+			const existing = seen.get(key);
+			if (existing) {
+				if (name && !existing.companies.includes(name)) existing.companies.push(name);
+			} else {
+				seen.set(key, { city, country, companies: name ? [name] : [] });
+			}
 		}
 		return Array.from(seen.values());
 	});
@@ -64,7 +91,7 @@
 			experiences.forEach((exp) => {
 				if (exp.clientLocation && exp.clientLocation.verified === false) {
 					console.warn(
-						`[GeoMap] Unverified location for ${exp.company} (${exp.clientLocation.city}, ${exp.clientLocation.country}).`
+						`[GeoMap] Unverified location for ${companyName(exp.company)} (${exp.clientLocation.city}, ${exp.clientLocation.country}).`
 					);
 				}
 			});
@@ -241,11 +268,11 @@
 
 {#if webglAvailable === false}
 	<div class="fallback">
-		<div class="fallback-hint">
+		<h4 class="fallback-title">
 			{$lang === 'es'
-				? '3D no disponible, mostrando lista de ubicaciones.'
-				: '3D unavailable, showing location list.'}
-		</div>
+				? 'Regiones donde mi trabajo ha dejado huella'
+				: 'Regions where my work has left a mark'}
+		</h4>
 		<ul class="loc-list">
 			<li class="loc-item loc-home">
 				<span class="loc-dot"></span>
@@ -254,12 +281,14 @@
 					<span class="loc-role">{$lang === 'es' ? 'Base' : 'Home base'}</span>
 				</div>
 			</li>
-			{#each withLocation as e}
+			{#each fallbackLocations as loc (loc.city + '|' + loc.country)}
 				<li class="loc-item">
 					<span class="loc-dot loc-dot-soft"></span>
 					<div class="loc-body">
-						<span class="loc-city">{e.clientLocation.city}, {e.clientLocation.country}</span>
-						<span class="loc-role">{e.company}</span>
+						<span class="loc-city">{loc.city}, {loc.country}</span>
+						{#if loc.companies.length}
+							<span class="loc-role">{loc.companies.join(' · ')}</span>
+						{/if}
 					</div>
 				</li>
 			{/each}
@@ -331,10 +360,13 @@
 		border: 1px solid var(--color-border);
 	}
 
-	.fallback-hint {
+	.fallback-title {
+		margin: 0;
 		font-family: 'Fredoka', ui-monospace, SFMono-Regular, Menlo, monospace;
-		font-size: 11px;
-		color: var(--color-ink-subtle);
+		font-size: 13px;
+		font-weight: 600;
+		color: var(--color-ink);
+		letter-spacing: 0.01em;
 	}
 
 	.loc-list {
