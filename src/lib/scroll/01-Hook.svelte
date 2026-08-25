@@ -40,14 +40,21 @@
 
 <style>
 	:global(#hook.section-shell) {
-		height: 100vh;
 		box-sizing: border-box;
 		padding-top: clamp(2rem, 4vh, 3.5rem);
 		padding-bottom: clamp(2rem, 4vh, 3.5rem);
+		min-height: 100vh;
+	}
+
+	@media (min-width: 900px) {
+		:global(#hook.section-shell) {
+			height: 100vh;
+			min-height: unset;
+		}
 	}
 
 	:global(#hook .section-inner) {
-		height: 100%;
+		min-height: 100%;
 		display: flex;
 		align-items: center;
 	}
@@ -89,13 +96,25 @@
 		position: relative;
 		width: 100%;
 		min-width: 0;
-		min-height: 0;
 		align-self: stretch;
+		height: clamp(280px, 55vw, 420px);
+	}
+
+	@media (min-width: 900px) {
+		.globe-col {
+			height: auto;
+			min-height: 380px;
+		}
+
+		.globe-col :global(.slot) {
+			position: absolute;
+			inset: 0;
+		}
 	}
 
 	.globe-col :global(.slot) {
-		position: absolute;
-		inset: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	.cards-row {
