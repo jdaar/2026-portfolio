@@ -92,6 +92,12 @@
 			subMetric: $lang === 'es' ? 'Capacitación práctica en SURA México (15 desarrolladores) y Diners Club (24 desarrolladores)' : 'Hands-on training at SURA México (15 devs) & Diners Club (24 devs)'
 		}
 	]);
+
+	const LEFT_IDS = ['firplak-hours', 'lotrading-speed', 'lotrading-coverage', 'suramx-quotations', 'suramx-throughput'];
+	const RIGHT_IDS = ['lotrading-timeline', 'diners-users', 'diners-ai-stack', 'ai-maturity', 'ai-devs'];
+
+	const leftCards = $derived(LEFT_IDS.map((id) => cards.find((c) => c.id === id)).filter(Boolean));
+	const rightCards = $derived(RIGHT_IDS.map((id) => cards.find((c) => c.id === id)).filter(Boolean));
 </script>
 
 <ScrollSection id="dashboard">
@@ -105,30 +111,48 @@
 
 			<!-- Pure Metric Cards Grid -->
 			<div class="masonry-grid">
-				{#each cards as card (card.id)}
-					<article class="metric-card">
-						<!-- Primary Metric Display -->
-						<div class="hero-stat-block">
-							<span class="stat-number">{card.mainMetric}</span>
-							<span class="stat-label">{card.metricLabel}</span>
-							{#if card.subMetric}
-								<span class="stat-sub">{card.subMetric}</span>
-							{/if}
-						</div>
-
-						<!-- Related Operation Indicator Only -->
-						<div class="card-footer-meta">
-							<span class="tag company-tag">{card.company}</span>
-						</div>
-
-						<!-- Direct Chart / Canvas Visualization -->
-						{#if card.vizId}
-							<div class="card-viz-container">
-								<VisualizationSlot vizId={card.vizId} {data} />
+				<div class="masonry-col">
+					{#each leftCards as card (card.id)}
+						<article class="metric-card">
+							<div class="hero-stat-block">
+								<span class="stat-number">{card.mainMetric}</span>
+								<span class="stat-label">{card.metricLabel}</span>
+								{#if card.subMetric}
+									<span class="stat-sub">{card.subMetric}</span>
+								{/if}
 							</div>
-						{/if}
-					</article>
-				{/each}
+							<div class="card-footer-meta">
+								<span class="tag company-tag">{card.company}</span>
+							</div>
+							{#if card.vizId}
+								<div class="card-viz-container">
+									<VisualizationSlot vizId={card.vizId} {data} />
+								</div>
+							{/if}
+						</article>
+					{/each}
+				</div>
+				<div class="masonry-col">
+					{#each rightCards as card (card.id)}
+						<article class="metric-card">
+							<div class="hero-stat-block">
+								<span class="stat-number">{card.mainMetric}</span>
+								<span class="stat-label">{card.metricLabel}</span>
+								{#if card.subMetric}
+									<span class="stat-sub">{card.subMetric}</span>
+								{/if}
+							</div>
+							<div class="card-footer-meta">
+								<span class="tag company-tag">{card.company}</span>
+							</div>
+							{#if card.vizId}
+								<div class="card-viz-container">
+									<VisualizationSlot vizId={card.vizId} {data} />
+								</div>
+							{/if}
+						</article>
+					{/each}
+				</div>
 			</div>
 		</div>
 	{/snippet}
@@ -143,25 +167,34 @@
 	}
 
 	.masonry-grid {
-		column-count: 1;
-		column-gap: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
 		width: 100%;
+	}
+
+	.masonry-col {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+		min-width: 0;
 	}
 
 	@media (min-width: 900px) {
 		.masonry-grid {
-			column-count: 2;
+			flex-direction: row;
+			align-items: flex-start;
+		}
+		.masonry-col {
+			flex: 1;
 		}
 	}
 
 	.metric-card {
-		break-inside: avoid;
-		page-break-inside: avoid;
-		display: inline-flex;
+		display: flex;
 		flex-direction: column;
 		gap: 0.8rem;
 		width: 100%;
-		margin-bottom: 1.25rem;
 		box-sizing: border-box;
 		background: color-mix(in srgb, var(--color-surface) 96%, transparent);
 		border: 1px solid var(--color-border);
