@@ -16,6 +16,8 @@
 	let canvasEl: HTMLCanvasElement | undefined = $state();
 	let chartInstance: any;
 	let unsubLang: (() => void) | undefined;
+	let legendMql: MediaQueryList | undefined;
+	let onLegendMqlChange: ((e: MediaQueryListEvent) => void) | undefined;
 
 	const PALETTE = chartSeries;
 
@@ -31,6 +33,12 @@
 		chartInstance.update();
 	}
 
+	function applyLegendPosition(isWide: boolean) {
+		if (!chartInstance) return;
+		chartInstance.options.plugins.legend.position = isWide ? 'right' : 'bottom';
+		chartInstance.update();
+	}
+
 	onMount(async () => {
 		if (!browser || !canvasEl) return;
 		const Chart = await getChartJS();
@@ -41,6 +49,9 @@
 			currentLang = v;
 			refreshLabels(v);
 		});
+
+		legendMql = window.matchMedia('(min-width: 640px)');
+		const initialPos: 'right' | 'bottom' = legendMql.matches ? 'right' : 'bottom';
 
 		chartInstance = new Chart(canvasEl, {
 			type: 'doughnut',
@@ -61,7 +72,7 @@
 				maintainAspectRatio: false,
 				plugins: {
 					legend: {
-						position: 'right',
+						position: initialPos,
 						labels: {
 							color: theme.fgMuted,
 							boxWidth: 10,
@@ -80,10 +91,14 @@
 				cutout: '68%'
 			}
 		});
+
+		onLegendMqlChange = (e: MediaQueryListEvent) => applyLegendPosition(e.matches);
+		legendMql.addEventListener('change', onLegendMqlChange);
 	});
 
 	onDestroy(() => {
 		unsubLang?.();
+		if (legendMql && onLegendMqlChange) legendMql.removeEventListener('change', onLegendMqlChange);
 		if (chartInstance) chartInstance.destroy();
 	});
 </script>
@@ -122,7 +137,8 @@
 	.chart-shell {
 		position: relative;
 		width: 100%;
-		height: 240px;
+		min-height: 260px;
+		height: clamp(260px, 40vw, 320px);
 		flex: 1;
 	}
 </style>
