@@ -70,9 +70,9 @@
 			id: 'diners-ai-stack',
 			category: 'signature',
 			company: 'Diners Club',
-			mainMetric: $lang === 'es' ? 'Banca conversacional serverless' : 'Serverless conversational banking',
-			metricLabel: $lang === 'es' ? 'Solución por WhatsApp con AWS Bedrock & Step Functions' : 'WhatsApp solution with AWS Bedrock & Step Functions',
-			subMetric: $lang === 'es' ? 'Transición de n8n a máquinas de estado serverless en AWS Step Functions, memoria DynamoDB TTL, Weaviate RAG y enrutamiento inteligente Haiku/Sonnet' : 'Transition from n8n to serverless AWS Step Functions, DynamoDB TTL memory, Weaviate RAG & Haiku/Sonnet smart routing'
+			mainMetric: $lang === 'es' ? '−56% Latencia & −87% Costos' : '−56% Latency & −87% Cost',
+			metricLabel: $lang === 'es' ? 'Reducción en tiempo de ejecución por solicitud y costo operativo' : 'Execution time per request & operational cost reduction',
+			subMetric: $lang === 'es' ? 'Banca conversacional por WhatsApp: transición de n8n a AWS Step Functions serverless, memoria DynamoDB TTL, Weaviate RAG y enrutamiento inteligente Haiku/Sonnet' : 'WhatsApp conversational banking: transition from n8n to serverless AWS Step Functions, DynamoDB TTL memory, Weaviate RAG & Haiku/Sonnet smart routing'
 		},
 		{
 			id: 'ai-maturity',
@@ -96,8 +96,13 @@
 	const LEFT_IDS = ['firplak-hours', 'lotrading-speed', 'lotrading-coverage', 'suramx-quotations', 'suramx-throughput'];
 	const RIGHT_IDS = ['lotrading-timeline', 'diners-users', 'diners-ai-stack', 'ai-maturity', 'ai-devs'];
 
-	const leftCards = $derived(LEFT_IDS.map((id) => cards.find((c) => c.id === id)).filter(Boolean));
-	const rightCards = $derived(RIGHT_IDS.map((id) => cards.find((c) => c.id === id)).filter(Boolean));
+	type Card = (typeof cards)[number];
+	const leftCards = $derived(
+		LEFT_IDS.map((id) => cards.find((c) => c.id === id)).filter((c): c is Card => c !== undefined)
+	);
+	const rightCards = $derived(
+		RIGHT_IDS.map((id) => cards.find((c) => c.id === id)).filter((c): c is Card => c !== undefined)
+	);
 </script>
 
 <ScrollSection id="dashboard">
