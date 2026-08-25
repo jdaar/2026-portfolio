@@ -79,7 +79,7 @@
 		gap: 1.25rem;
 		align-items: stretch;
 	}
-	@media (min-width: 900px) {
+	@media (min-width: 1024px) {
 		.viz-row-split {
 			grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
 		}
